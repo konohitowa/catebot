@@ -8,8 +8,6 @@ import pickle
 import configloader
 import praw
 import sqlite3
-#import psycopg2
-#import urllib.parse
 from paragraph import Paragraph
 from sys import exit
 from re import findall
@@ -33,10 +31,6 @@ except:
     print('Error while loading Catechism. Make sure the environment variable points to the correct path.')
     exit()
 
-#for key in sorted(catechism.keys(),key=int):
-#    print("("+key+"):"+catechism[key])
-#exit()
-
 # Connects to reddit via PRAW.
 print('Connecting to reddit...')
 try:
@@ -51,8 +45,7 @@ except:
 # Connects to a PostgreSQL database used to store comment ids.
 print('Connecting to database...')
 try:
-    conn = sqlite3.connect("status.db")
-    #configloader.getDatabase())
+    conn = sqlite3.connect(configloader.getDatabase())
     conn.row_factory = sqlite3.Row
     cur = conn.cursor()
     print('Connected to database!')
@@ -68,7 +61,6 @@ try:
     rows = cur.fetchall()
     for row in rows:
         io.write(row['comment_id']+'\n')
-#    cur.copy_to(io, 'commentids', sep='|')
     io.close()
     print('tmp.txt ready!')
 except:
@@ -94,21 +86,13 @@ while True:
     subreddit = r.get_subreddit(configloader.getSubreddits())
     subreddit_comments = subreddit.get_comments()
     for comment in subreddit_comments:
-        #print("Processing comment:",comment.id,comment.author,comment.body)
-        if comment.author.name != 'Catebot' and (comment.id not in open('tmp.txt').read()) and (comment.id not in comment_ids_this_session):
-            #print("Comment author ='"+comment.author+"'")
-            #print("if 1:configloader says that BotUsername is",configloader.getBotUsername())
+        if comment.author.name != configloader.getBotUsername() and comment.id not in open('tmp.txt').read() and comment.id not in comment_ids_this_session:
             comment_ids_this_session.add(comment.id)
             paragraphsToFind = findall(r'\[ccc\s*([\d\-,]+)\](?im)', comment.body) # Uses regex to find potential paragraphs in comment body.
             if len(paragraphsToFind) != 0:
-                #print("if 2:configloader says that BotUsername is",configloader.getBotUsername())
                 print("ParagraphsToFind:",paragraphsToFind)
                 print("Comment author:",comment.author)
                 for par in paragraphsToFind:
-                    # This regex is ugly, I will look into making it prettier later.
-                    print("Par:",par)
-                    #nextPar = findall(r'(\d+)?(\d+-\d+)?([\d,]+)?', par)
-                    #print("nextPar:",nextPar)
                     lookupList.append(str(par))
 
                 if len(lookupList) != 0:
@@ -116,7 +100,6 @@ while True:
                     nextComment = paragraphObject.getComment()
                     if nextComment != False:
                         try:
-                            #print("Would reply with:",nextComment)
                             comment.reply(nextComment)
                         except praw.errors.RateLimitExceeded:
                             print("Sleeping 10 minutes due to RateLimitExceed")
