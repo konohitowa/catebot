@@ -1,7 +1,7 @@
 #-----------------------------------------------
 # VerseBot for reddit 
 # By Matthieu Grieger
-# Modified by Daniel Grambihler
+# Modified by u/kono_hito_wa
 #-----------------------------------------------
 
 import pickle
@@ -34,7 +34,7 @@ except:
 # Connects to reddit via PRAW.
 print('Connecting to reddit...')
 try:
-    r = praw.Reddit(user_agent='Catebot by /u/Catebot. Github: https://github.com/gramby/versebot')
+    r = praw.Reddit(user_agent='Catebot by /u/kono_hito_wa. Github: https://github.com/konohitowa/catebot')
     r.login(configloader.getBotUsername(), configloader.getBotPassword())
     print('Connected to reddit!')
 except:
@@ -85,48 +85,51 @@ while True:
         io.close()
     subreddit = r.get_subreddit(configloader.getSubreddits())
     subreddit_comments = subreddit.get_comments()
-    for comment in subreddit_comments:
-        if comment.author.name != configloader.getBotUsername() and comment.id not in open('tmp.txt').read() and comment.id not in comment_ids_this_session:
-            comment_ids_this_session.add(comment.id)
-            paragraphsToFind = findall(r'\[ccc\s*([\d\-,]+)\](?im)', comment.body) # Uses regex to find potential paragraphs in comment body.
-            if len(paragraphsToFind) != 0:
-                print("ParagraphsToFind:",paragraphsToFind)
-                print("Comment author:",comment.author)
-                for par in paragraphsToFind:
-                    lookupList.append(str(par))
+    try:
+        for comment in subreddit_comments:
+            if comment.author.name != configloader.getBotUsername() and comment.id not in open('tmp.txt').read() and comment.id not in comment_ids_this_session:
+                comment_ids_this_session.add(comment.id)
+                paragraphsToFind = findall(r'\[ccc\s*([\d\-,]+)\](?im)', comment.body)
+                if len(paragraphsToFind) != 0:
+                    for par in paragraphsToFind:
+                        lookupList.append(str(par))
 
-                if len(lookupList) != 0:
-                    paragraphObject = Paragraph(lookupList, catechism)
-                    nextComment = paragraphObject.getComment()
+                    if len(lookupList) != 0:
+                        paragraphObject = Paragraph(lookupList, catechism)
+                        nextComment = paragraphObject.getComment()
+                        if nextComment != False:
+                            try:
+                                comment.reply(nextComment)
+                            except praw.errors.RateLimitExceeded:
+                                print("Sleeping 10 minutes due to RateLimitExceed")
+                                sleep(10*60)
+                                comment.reply(nextComment)
+                            
+                        paragraphObject.clearParagraphs()
+                    else:
+                        nextComment = False
+
                     if nextComment != False:
                         try:
-                            comment.reply(nextComment)
-                        except praw.errors.RateLimitExceeded:
-                            print("Sleeping 10 minutes due to RateLimitExceed")
-                            sleep(10*60)
-                            comment.reply(nextComment)
-                            
-                    paragraphObject.clearParagraphs()
-                else:
-                    nextComment = False
-
-                if nextComment != False:
-                    try:
-                        cur.execute("INSERT INTO commentids VALUES (?)", (comment.id,))
-                        conn.commit()
-                    except:
-                        print('Database insert failed.')
-                        exit()
-                    commentsAdded = True
-                    lookupList.clear()
-                else:
-                    commentsAdded = False
-                    try:    
-                        # Removes comment id from set if the comment was not replied to. This should prevent situations where the comment
-                        # has a valid command and the bot does not reply because the reply operation failed the first time through.
-                        comment_ids_this_session.remove(comment.id)
-                    except KeyError:
-                        pass
-                    lookupList.clear()
+                            cur.execute("INSERT INTO commentids VALUES (?)", (comment.id,))
+                            conn.commit()
+                        except:
+                            print('Database insert failed.')
+                            exit()
+                        commentsAdded = True
+                        lookupList.clear()
+                    else:
+                        commentsAdded = False
+                        try:    
+                            # Removes comment id from set if the comment was not replied to. This should prevent situations where the comment
+                            # has a valid command and the bot does not reply because the reply operation failed the first time through.
+                            comment_ids_this_session.remove(comment.id)
+                        except KeyError:
+                            pass
+                        lookupList.clear()
     
+    except requests.exceptions.HTTPError:
+        print("HTTP Error: waiting 5 minutes to retry")
+        sleep(270) # 300 = 270 + the 30 below
+        
     sleep(30)
