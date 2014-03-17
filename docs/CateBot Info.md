@@ -16,7 +16,7 @@ If you want CateBot to quote a Catechism paragraph from your comment, simply sur
 ### Can you give me some examples of how to use the bot?
 Using the reference [ccc 1] would ask CateBot to quote the 1st paragraph of the CCC.
 
-Three difference paragraphs such as [ccc 3,120,72] can also be requested.
+Multiple paragraphs such as [ccc 3,120,72] can also be requested.
 
 And rather than using [ccc 2105,2106,2107] you could just specify a range using [ccc 2105-2107].
 
