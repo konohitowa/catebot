@@ -41,6 +41,9 @@ class Paragraph:
 
         return
         
+    def isValid(self):
+        return not self._invalidComment
+        
     def linkCrossReferences(self,comment):
 
         crossReferences = findall(r'\(([\d\,\s\-]+)\)$(?m)',comment)

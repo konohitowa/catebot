@@ -68,6 +68,7 @@ except:
     exit()
 
 commentsAdded = False
+nextComment = False
 lookupList = list()
 timeToWait = 30
 comment_ids_this_session = set() # This is to help protect against spamming when connection to database is lost.
@@ -96,15 +97,20 @@ while True:
 
                     if len(lookupList) != 0:
                         paragraphObject = Paragraph(lookupList, catechism)
-                        nextComment = paragraphObject.getComment()
-                        if nextComment != False:
-                            try:
-                                comment.reply(nextComment)
-                            except praw.errors.RateLimitExceeded:
-                                print("Sleeping 10 minutes due to RateLimitExceed")
-                                sleep(10*60)
-                                comment.reply(nextComment)
-                            
+                        # Don't incessantly keep retrying an invalid paragraph
+                        if paragraphObject.isValid():
+                            nextComment = paragraphObject.getComment()
+                            if nextComment != False:
+                                try:
+                                    comment.reply(nextComment)
+                                except praw.errors.RateLimitExceeded:
+                                    print("Sleeping 11 minutes due to RateLimitExceed")
+                                    sleep(11*60)
+                                    comment.reply(nextComment)
+                        else:
+                            # This has the effect of forcing an insert and then a refresh of tmp.txt
+                            nextComment = True
+
                         paragraphObject.clearParagraphs()
                     else:
                         nextComment = False
