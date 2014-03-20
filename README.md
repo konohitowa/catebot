@@ -3,9 +3,6 @@ A reddit bot that is triggered by Catechism of the Catholic Church (CCC) paragra
 
 [See the bot in action!](http://www.reddit.com/user/CateBot)
 
-### Note
-The code in versebot that does summaries and linking hasn't been ported to catebot yet; this is in the works.
-
 ## Usage
 ### Triggering the bot
 [Refer to the CateBot FAQ](https://github.com/konohitowa/catebot/blob/master/docs/CateBot%20Info.md#faq).

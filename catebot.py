@@ -42,7 +42,7 @@ except:
     exit()
 
 
-# Connects to a PostgreSQL database used to store comment ids.
+# Connects to a sqlite database used to store comment ids.
 print('Connecting to database...')
 try:
     conn = sqlite3.connect(configloader.getDatabase())
@@ -53,7 +53,7 @@ except:
     print('Connection to database failed.')
     exit()
 
-# Fills text file previous comment ids from PostgreSQL database.
+# Fills text file previous comment ids from sqlite database.
 print('Setting up tmp.txt...')
 try:
     io = open('tmp.txt', 'w')
