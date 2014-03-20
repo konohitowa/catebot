@@ -1,4 +1,6 @@
 from re import findall
+from re import sub
+from re import subn
 #import booknames
 
 # Class that holds the properties of a Catechism paragraph. This includes the paragraph number and xhtml
@@ -38,7 +40,37 @@ class Paragraph:
             self._invalidComment = True
 
         return
+        
+    def linkCrossReferences(self,comment):
 
+        crossReferences = findall(r'\(([\d\,\s\-]+)\)$(?m)',comment)
+        if len(crossReferences) != 0:
+            for eachRef in crossReferences:
+                strippedRef = sub(r'\s+','',str(eachRef))
+                paragraphList = [ strippedRef ]
+                for paragraph in paragraphList:
+                    if ',' in paragraph:
+                        sublist = paragraph.split(',')
+                    else:
+                        sublist = [ paragraph ]
+                    for subpara in sublist:
+                        if '-' in subpara:
+                            par = subpara.partition('-')[0]
+                        else:
+                            par = subpara
+                        content,location = self._Catechism[par]
+                        contextLink = self.__getContextLink(par, location)
+                        # Just do all four cases... it's easier than figuring it out or tracking it
+                        comment,subs = subn(r'\(%s\)(?m)'%par,"(["+par+"]("+contextLink+"))", comment)
+                        if subs == 0:
+                            comment,subs = subn(r'%s, (?m)'%par,"["+par+"]("+contextLink+"), ", comment)
+                        if subs == 0:
+                            comment,subs = subn(r'%s-(?m)'%par,"["+par+"]("+contextLink+")-", comment)
+                        if subs == 0:
+                            comment,subs = subn(r'%s\)(?m)'%par,"["+par+"]("+contextLink+"))", comment)
+
+        return comment
+            
     # Constructs reddit comment.
     def getComment(self):
         if not self._invalidComment:
@@ -47,9 +79,10 @@ class Paragraph:
                 paragraph = curParData[0]
                 content,location = curParData[1]
                 contextLink = self.__getContextLink(paragraph, location)
-                comment += ('([**' + paragraph + '**](' + contextLink + ')) ' + content) + '\n\n'
+                comment += ('[**' + paragraph + '**](' + contextLink + ') ' + content) + '\n\n'
  
-            if not (0 < len(comment) <= self.__getCharLimit()):
+            comment = self.linkCrossReferences(comment)
+            if len(comment) > self.__getCharLimit():
                 comment = self.__getOverflowComment()
 
             comment += self.__getCommentFooter()
@@ -64,11 +97,11 @@ class Paragraph:
     
     # Simply returns the comment footer found at the bottom of every comment posted by the bot.
     def __getCommentFooter(self):
-        return ('\n***\n[[Source Code](https://github.com/konohitowa/catebot)]'
-               + ' [[Feedback](https://github.com/konohitowa/catebot/issues)]' 
-               + ' [[Contact Dev](http://www.reddit.com/message/compose/?to=kono_hito_wa)]'
-               + ' [[FAQ](https://github.com/konohitowa/catebot/blob/master/docs/CateBot%20Info.md#faq)]' 
-               + ' [[Changelog](https://github.com/konohitowa/catebot/blob/master/docs/CHANGELOG.md)]')
+        return ('\n***\n^Catebot ^links: [^Source ^Code](https://github.com/konohitowa/catebot)'
+               + ' ^| [^Feedback](https://github.com/konohitowa/catebot/issues)' 
+               + ' ^| [^Contact ^Dev](http://www.reddit.com/message/compose/?to=kono_hito_wa)'
+               + ' ^| [^FAQ](https://github.com/konohitowa/catebot/blob/master/docs/CateBot%20Info.md#faq)' 
+               + ' ^| [^Changelog](https://github.com/konohitowa/catebot/blob/master/docs/CHANGELOG.md)')
 
     # Takes the paragraph number and xhtml location as parameters. The function then constructs
     # the appropriate context link. This link appears on each paragrpah number.
