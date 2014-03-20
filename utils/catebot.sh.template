@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd /home/catebot/catebot/catebot
+cd $HOME/catebot
 
 while [ 1 ]; do
 	DATABASE=status.db USERNAME=<reddit account> PASSWORD=<reddit password> SUBREDDITS=Catholicism CATECHISM=catechism.pickle python3.3 catebot.py >> catebot.out 2>> catebot.err
