@@ -13,7 +13,6 @@ A reddit bot that is triggered by Catechism of the Catholic Church (CCC) paragra
 ## License
 	The MIT License (MIT)
 
-	Copyright (c) 2013 Matthieu Grieger
 	Copyright (c) 2014 /u/kono_hito_wa
 
 	Permission is hereby granted, free of charge, to any person obtaining a copy
