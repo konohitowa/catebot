@@ -124,7 +124,7 @@ class Response:
         if numberOfParagraphs > 1:
             properNumber += 's'
             
-        header = 'The contents of the ' + properNumber + ' you quoted exceed the character limit (' + str(self.__getCharLimit()) + ' characters). Instead, here are links to the ' + properNumber + '...\n\n'
+        header = 'The contents of the ' + properNumber + ' you quoted exceed the character limit ([' + str(self.__getCharLimit()) + '](https://github.com/konohitowa/catebot/blob/master/docs/CateBot%20Info.md#wait-ive-counted-the-characters-and-i-didnt-hit-the-limit) characters). Instead, here are links to the ' + properNumber + '...\n\n'
         comment = header + comment
         
         return comment

@@ -8,9 +8,7 @@ A reddit bot that is triggered by Catechism of the Catholic Church (CCC) paragra
 [Refer to the CateBot FAQ](https://github.com/konohitowa/catebot/blob/master/docs/CateBot%20Info.md#faq).
 
 ## Authors
-Matthieu Grieger (Original VerseBot code)
-
-[/u/kono_hito_wa](http://reddit.com/u/kono_hito_wa) (CateBot port)
+[/u/kono_hito_wa](http://reddit.com/u/kono_hito_wa)
 
 ## License
 	The MIT License (MIT)
@@ -37,4 +35,4 @@ Matthieu Grieger (Original VerseBot code)
 	THE SOFTWARE.
 
 ## Thanks
-[Jeffrey Ness](https://github.com/jness) for [this blog post](http://blog.flip-edesign.com/_rst/Using_a_KJV_Bible_with_Pickle_and_Python.html).
+[Matthieu Grieger](http://www.reddit.com/u/mgrieger) for [versebot](https://github.com/matthieugrieger/versebot), from which catebot was initially derived.
