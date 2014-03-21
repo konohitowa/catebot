@@ -1,3 +1,22 @@
-CREATE TABLE commentids (
-	comment_id VARCHAR(7)
+CREATE TABLE configuration (
+	version TEXT,
+	username TEXT,
+	password TEXT,
+	catechismFilename TEXT
+);
+
+CREATE TABLE comments (
+	id TEXT UNIQUE,
+	utc_time INTEGER
+);
+
+CREATE TABLE subreddits (
+	subreddit TEXT,
+	enabled INTEGER
+);
+
+CREATE TABLE logs (
+	message TEXT,
+	type TEXT,
+	utc_time INTEGER
 );

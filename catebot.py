@@ -1,18 +1,18 @@
 #-----------------------------------------------
-# VerseBot for reddit 
-# By Matthieu Grieger
-# Modified by u/kono_hito_wa
+# Catebot for reddit 
+#  /u/kono_hito_wa
+# Originally based upon /u/mgrieger's VerseBot
 #-----------------------------------------------
 
 import pickle
-import configloader
+import objects
 import praw
+import re
 import sqlite3
-from paragraph import Paragraph
+import time
+import sys
 from sys import exit
-from re import findall
 from time import sleep
-from os import environ
 from warnings import filterwarnings
 
 # Ignores ResourceWarnings when using pickle files. May need to look into this later, but it seems to work fine.
@@ -21,121 +21,72 @@ filterwarnings("ignore", category=ResourceWarning)
 filterwarnings("ignore", category=DeprecationWarning) 
 
 print('Starting up Catebot...')
+if len(sys.argv) != 2:
+    print("Usage:",sys.argv[0],"<database file>")
+    exit(1)
 
-# Loads Bible translation pickle files into memory.
-print('Loading Catechism...')
-try:
-    catechism = pickle.load(open(configloader.getCatechism(), 'rb'))
-    print('Catechism successfully loaded!')
-except:
-    print('Error while loading Catechism. Make sure the environment variable points to the correct path.')
-    exit()
+configuration = objects.Configuration(sys.argv[1])
 
-# Connects to reddit via PRAW.
-print('Connecting to reddit...')
+catechism = pickle.load(open(configuration.getCatechismFilename(), 'rb'))
+print('Catechism successfully loaded!')
+
 try:
     r = praw.Reddit(user_agent='Catebot by /u/kono_hito_wa. Github: https://github.com/konohitowa/catebot')
-    r.login(configloader.getBotUsername(), configloader.getBotPassword())
+    r.login(configuration.getUsername(), configuration.getPassword())
     print('Connected to reddit!')
 except:
-    print('Connection to reddit failed. Either reddit is down at the moment, or something in the config is incorrect.')
+    print('Connection to reddit failed. Either reddit is down at the moment, or something in the config is incorrect.',sys.exc_info()[0])
     exit()
 
 
 # Connects to a sqlite database used to store comment ids.
 print('Connecting to database...')
 try:
-    conn = sqlite3.connect(configloader.getDatabase())
-    conn.row_factory = sqlite3.Row
-    cur = conn.cursor()
+    connection = configuration.getDatabaseConnection()
+    cursor = connection.cursor()
     print('Connected to database!')
 except:
-    print('Connection to database failed.')
+    print('Connection to database failed.',sys.exc_info()[0])
     exit()
 
-# Fills text file previous comment ids from sqlite database.
-print('Setting up tmp.txt...')
-try:
-    io = open('tmp.txt', 'w')
-    cur.execute('select * from commentids')
-    rows = cur.fetchall()
-    for row in rows:
-        io.write(row['comment_id']+'\n')
-    io.close()
-    print('tmp.txt ready!')
-except:
-    print('Error when setting up tmp.txt.')
-    exit()
 
-commentsAdded = False
-nextComment = False
-lookupList = list()
+logger = objects.Logger(configuration.getDatabaseConnection())
+
 timeToWait = 30
-comment_ids_this_session = set() # This is to help protect against spamming when connection to database is lost.
-
+response = objects.Response(catechism, configuration)
+processedComments = list()
 print('Beginning to scan comments...')
 # This loop runs every 30 seconds.
 while True:
-    if commentsAdded:
-        # Copies new comment ids from database into txt file for searching.
-        io = open('tmp.txt', 'w')
-        cur.execute('select * from commentids')
-        rows = cur.fetchall()
-        for row in rows:
-            io.write(row['comment_id']+'\n')
-        io.close()
-    subreddit = r.get_subreddit(configloader.getSubreddits())
+    processedComments.clear()
+    cursor.execute('select id from comments')
+    for cid in cursor:
+        processedComments.append(cid[0])
+    subreddit = r.get_subreddit(configuration.getSubreddits())
     subreddit_comments = subreddit.get_comments()
     try:
         for comment in subreddit_comments:
-            if comment.author.name != configloader.getBotUsername() and comment.id not in open('tmp.txt').read() and comment.id not in comment_ids_this_session:
-                comment_ids_this_session.add(comment.id)
-                paragraphsToFind = findall(r'\[ccc\s*([\d\-,]+)\](?im)', comment.body)
-                if len(paragraphsToFind) != 0:
-                    for par in paragraphsToFind:
-                        lookupList.append(str(par))
+            if comment.author.name != configuration.getUsername() and comment.id not in processedComments:
+                paragraphsToFind = re.findall(r'\[ccc\s*([\d\-,]+)\](?im)', comment.body)
+                isValid,commandResponse = response.getResponse(paragraphsToFind)
+                if isValid:
+                    try:
+                        comment.reply(commandResponse)
+                    except praw.errors.RateLimitExceeded:
+                        logger.log("Sleeping 11 minutes due to RateLimitExceed"+sys.exc_info()[0])
+                        sleep(11*60)
+                        comment.reply(commandResponse)
 
-                    if len(lookupList) != 0:
-                        paragraphObject = Paragraph(lookupList, catechism)
-                        # Don't incessantly keep retrying an invalid paragraph
-                        if paragraphObject.isValid():
-                            nextComment = paragraphObject.getComment()
-                            if nextComment != False:
-                                try:
-                                    comment.reply(nextComment)
-                                except praw.errors.RateLimitExceeded:
-                                    print("Sleeping 11 minutes due to RateLimitExceed")
-                                    sleep(11*60)
-                                    comment.reply(nextComment)
-                        else:
-                            # This has the effect of forcing an insert and then a refresh of tmp.txt
-                            nextComment = True
-
-                        paragraphObject.clearParagraphs()
-                    else:
-                        nextComment = False
-
-                    if nextComment != False:
-                        try:
-                            cur.execute("INSERT INTO commentids VALUES (?)", (comment.id,))
-                            conn.commit()
-                        except:
-                            print('Database insert failed.')
-                            exit()
-                        commentsAdded = True
-                        lookupList.clear()
-                    else:
-                        commentsAdded = False
-                        try:    
-                            # Removes comment id from set if the comment was not replied to. This should prevent situations where the comment
-                            # has a valid command and the bot does not reply because the reply operation failed the first time through.
-                            comment_ids_this_session.remove(comment.id)
-                        except KeyError:
-                            pass
-                        lookupList.clear()
+                    try:
+                        cursor.execute("INSERT INTO comments (id,utc_time) VALUES (?,?)", (comment.id, int(time.time())))
+                        connection.commit()
+                        logger.log(comment.id+","+comment.author.name)
+                    except:
+                        logger.log("Database insert failed."+sys.exc_info()[0],"x")
+                        exit()
     
     except requests.exceptions.HTTPError:
-        print("HTTP Error: waiting 5 minutes to retry")
-        sleep(270) # 300 = 270 + the 30 below
+        logger.log("HTTP Error: waiting 5 minutes to retry"+sys.exc_info()[0],"e")
+        sleep(5*60 - timeToWait)
         
-    sleep(30)
+    sleep(timeToWait)
