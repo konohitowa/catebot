@@ -130,22 +130,16 @@ class Response:
         return comment
     
     def __linkCrossReferences(self,comment):
-        crossReferences = re.findall(r'\(([\d\,\s\-]+)\)$(?m)',comment)
-        if len(crossReferences) != 0:
-            for eachRef in crossReferences:
-                strippedRef = re.sub(r'\s+','',str(eachRef))
-                paragraphList = self.__parsedParagraphs([ strippedRef ], False)
-                for paragraph in paragraphList:
-                    content,location = self._Catechism[paragraph]
-                    contextLink = self.__getContextLink(paragraph, location)
-                    # Just try all four cases... it's easier than figuring it out or tracking it
-                    comment,subs = re.subn(r'\(%s\)(?m)'%paragraph,"(["+paragraph+"]("+contextLink+"))", comment)
-                    if subs == 0:
-                        comment,subs = re.subn(r'%s, (?m)'%paragraph,"["+paragraph+"]("+contextLink+"), ", comment)
-                    if subs == 0:
-                        comment,subs = re.subn(r'%s-(?m)'%paragraph,"["+paragraph+"]("+contextLink+")-", comment)
-                    if subs == 0:
-                        comment,subs = re.subn(r'%s\)(?m)'%paragraph,"["+paragraph+"]("+contextLink+"))", comment)
+        xrefBlocks = reversed(list(re.finditer(r'\([\d\,\s\-]+\)$(?m)',comment)))
+        for xrefBlock in xrefBlocks:
+            xrefs = reversed(list(re.finditer(r'\d+',xrefBlock.group(0))))
+            for xref in xrefs:
+                paragraph = xref.group(0)
+                content,location = self._Catechism[paragraph]
+                contextLink = self.__getContextLink(paragraph, location)
+                start = xrefBlock.start()+xref.start()
+                end = xrefBlock.start()+xref.end()
+                comment = comment[:start]+"["+paragraph+"]("+contextLink+")"+comment[end:]
 
         return comment
     
