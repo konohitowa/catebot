@@ -215,7 +215,7 @@ class Response:
     # Constructs and returns an overflow comment whenever the comment exceeds the character limit set by
     # __getCharLimit(). Instead of posting the contents of the paragraphs(s) in the comment, it links to webpages
     # that contain the contents of the paragraphs(s).
-    def __getCanonOverflowComment(self, paragraphList):
+    def __getCanonOverflowComment(self, lawList):
         numberOfLaws = 0
         comment = ''
         for law in lawList:
