@@ -178,7 +178,7 @@ class Response:
             for xref in xrefs:
                 paragraph = xref.group(0)
                 content,location = self._Catechism[paragraph]
-                contextLink = self.__getContextLink(paragraph, location)
+                contextLink = self.__getCatechismContextLink(paragraph, location)
                 start = xrefBlock.start()+xref.start()
                 end = xrefBlock.start()+xref.end()
                 comment = comment[:start]+"["+paragraph+"]("+contextLink+")"+comment[end:]
@@ -243,13 +243,13 @@ class Response:
     # HERE 
     def __linkCanonCrossReferences(self,comment):
         return comment
-        xrefBlocks = reversed(list(re.finditer(r'\([\d\,\s\-]+\)$(?m)',comment)))
+        xrefBlocks = reversed(list(re.finditer(r'cann*\.\s+\d+$(?m)',comment)))
         for xrefBlock in xrefBlocks:
             xrefs = reversed(list(re.finditer(r'\d+',xrefBlock.group(0))))
             for xref in xrefs:
                 paragraph = xref.group(0)
                 content,location = self._Catechism[paragraph]
-                contextLink = self.__getContextLink(paragraph, location)
+                contextLink = self.__getCanonContextLink(paragraph, location)
                 start = xrefBlock.start()+xref.start()
                 end = xrefBlock.start()+xref.end()
                 comment = comment[:start]+"["+paragraph+"]("+contextLink+")"+comment[end:]
