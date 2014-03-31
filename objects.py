@@ -106,7 +106,10 @@ class Response:
                 contextLink = self.__getCanonContextLink(lawOnly, location)
                 #### HERE ####
                 if section and isSectioned:
-                    comment += ('[**Can. ' + lawOnly + '**](' + contextLink + ') ' + u"\u00A7" + section + " " + content[section]) + '\n\n'
+                    try:
+                        comment += ('[**Can. ' + lawOnly + '**](' + contextLink + ') ' + u"\u00A7" + section + " " + content[section]) + '\n\n'
+                    except KeyError:
+                        comment += '[**Can. ' + lawOnly + '**](' + contextLink + ') ' + u"\u00A7" + section + " doesn't exist\n\n"
                 elif not section and isSectioned:
                     comment += '[**Can. ' + lawOnly + '**](' + contextLink + ') '
                     for sect in sorted(content.keys(),key=int):
@@ -269,7 +272,7 @@ class Response:
                             for l in range(int(startingLaw), int(endingLaw)+1):
                                 if str(l) in self._Canon:
                                     validLawList.append(str(l))
-                    else:
+                    elif startingLaw in self._Canon:
                         validLawList.append(startingLaw)
                 else:
                     l = sublaw.partition('s')[0]
