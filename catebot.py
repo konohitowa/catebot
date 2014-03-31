@@ -30,6 +30,9 @@ configuration = objects.Configuration(sys.argv[1])
 catechism = pickle.load(open(configuration.getCatechismFilename(), 'rb'))
 print('Catechism successfully loaded!')
 
+canon = pickle.load(open(configuration.getCanonFilename(), 'rb'))
+print('Canon successfully loaded!')
+
 try:
     r = praw.Reddit(user_agent='Catebot by /u/kono_hito_wa. Github: https://github.com/konohitowa/catebot')
     r.login(configuration.getUsername(), configuration.getPassword())
@@ -53,7 +56,7 @@ except:
 logger = objects.Logger(configuration.getDatabaseConnection())
 
 timeToWait = 30
-response = objects.Response(catechism, configuration)
+response = objects.Response(catechism, canon, configuration)
 processedComments = list()
 print('Beginning to scan comments...')
 # This loop runs every 30 seconds.
@@ -67,9 +70,19 @@ while True:
     try:
         for comment in subreddit_comments:
             if comment.author.name != configuration.getUsername() and comment.id not in processedComments:
-                paragraphsToFind = re.findall(r'\[ccc\s*([\d\-,]+)\](?im)', comment.body)
-                isValid,commandResponse = response.getResponse(paragraphsToFind)
-                if isValid:
+                catechismRequestsToFind = re.findall(r'\[ccc\s*([\d\-,]+)\](?im)', comment.body)
+                requestIsValid,commandResponse = response.getCatechismResponse(catechismRequestsToFind)
+                if requestIsValid:
+                    try:
+                        comment.reply(commandResponse)
+                    except praw.errors.RateLimitExceeded:
+                        logger.log("Sleeping 11 minutes due to RateLimitExceed"+sys.exc_info()[0])
+                        sleep(11*60)
+                        comment.reply(commandResponse)
+                        
+                canonRequestsToFind = re.findall(r'\[can\s*([\d\-,s]+)\](?im)', comment.body)
+                requestIsValid,commandResponse = response.getCanonResponse(canonRequestsToFind)
+                if requestIsValid:
                     try:
                         comment.reply(commandResponse)
                     except praw.errors.RateLimitExceeded:
@@ -77,13 +90,13 @@ while True:
                         sleep(11*60)
                         comment.reply(commandResponse)
 
-                    try:
-                        cursor.execute("INSERT INTO comments (id,utc_time) VALUES (?,?)", (comment.id, int(time.time())))
-                        connection.commit()
-                        logger.log(comment.id+","+comment.author.name)
-                    except:
-                        logger.log("Database insert failed."+sys.exc_info()[0],"x")
-                        exit()
+                try:
+                    cursor.execute("INSERT INTO comments (id,utc_time) VALUES (?,?)", (comment.id, int(time.time())))
+                    connection.commit()
+                    logger.log(comment.id+","+comment.author.name)
+                except:
+                    logger.log("Database insert failed."+sys.exc_info()[0],"x")
+                    exit()
     
     except requests.exceptions.HTTPError:
         logger.log("HTTP Error: waiting 5 minutes to retry"+sys.exc_info()[0],"e")
