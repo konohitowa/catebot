@@ -8,6 +8,7 @@ import objects
 import pickle
 import praw
 import re
+import requests
 import sqlite3
 import time
 import sys
