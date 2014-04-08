@@ -4,17 +4,14 @@
 # Usage: python getParagraph.py catechism.pickle <law number>[s<section number>] [...]
 #
 
-import sys
 import os
-import re
 import pickle
-
-import pdb
+import re
+import sys
 
 canon = pickle.load(open(sys.argv[1], 'rb'))
 
 for arg in sys.argv[2:]:
-#    pdb.set_trace()
     sectionRequest = re.match(r"(\d+)s(\d+)",arg)
     if sectionRequest:
         lawNumber = sectionRequest.group(1)
@@ -23,7 +20,6 @@ for arg in sys.argv[2:]:
         lawNumber = arg
         sectionNumber = False
     
-#    try:
     isSectioned,law,htmlfile = canon[lawNumber]
     print("HTML file => ",htmlfile)
     lawText = "Can. "+lawNumber+" "
@@ -44,7 +40,3 @@ for arg in sys.argv[2:]:
 
     if lawText:
         print lawText.encode('utf-16')
-            
-#    except:
-#        pdb.set_trace()
-#        print "Invalid request "+arg

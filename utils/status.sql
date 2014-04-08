@@ -3,7 +3,8 @@ CREATE TABLE configuration (
 	username TEXT,
 	password TEXT,
 	catechismFilename TEXT,
-	canonFilename TEXT
+	canonFilename TEXT,
+	girmFilename TEXT
 );
 
 CREATE TABLE comments (
