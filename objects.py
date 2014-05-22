@@ -109,6 +109,7 @@ class Response:
     def parsedRequests(self, requests, includeRanges = True):
         validRequests = list()
         for request in requests:
+            request = re.sub(r"\s+","",request)
             if ',' in request:
                 sublist = request.split(',')
             else:
@@ -194,6 +195,7 @@ class CanonResponse(Response):
     def parsedRequests(self, requests, includeRanges = True):
         validRequests = list()
         for request in requests:
+            request = re.sub(r"\s+","",request)
             if ',' in request:
                 sublist = request.split(',')
             else:

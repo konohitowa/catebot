@@ -77,7 +77,7 @@ while True:
     try:
         for comment in subreddit_comments:
             if comment.author.name != configuration.getUsername() and comment.id not in processedComments:
-                catechismRequestsToFind = re.findall(r'\[ccc\s*([\d\-,]+)\](?im)(?!\()', comment.body)
+                catechismRequestsToFind = re.findall(r'\[ccc\s*([\d\-,\s]+)\](?im)(?!\()', comment.body)
                 if catechismRequestsToFind:
                     requestIsValid,commandResponse = catechismResponse.getResponse(catechismRequestsToFind)
                     if requestIsValid:
@@ -88,7 +88,7 @@ while True:
                             sleep(11*60)
                             comment.reply(commandResponse)
                     
-                canonRequestsToFind = re.findall(r'\[can\s*([\d\-,s]+)\](?im)(?!\()', comment.body)
+                canonRequestsToFind = re.findall(r'\[can\s*([\d\-,s\s]+)\](?im)(?!\()', comment.body)
                 if canonRequestsToFind:
                     requestIsValid,commandResponse = canonResponse.getResponse(canonRequestsToFind)
                     if requestIsValid:
@@ -99,7 +99,7 @@ while True:
                             sleep(11*60)
                             comment.reply(commandResponse)
 
-                girmRequestsToFind = re.findall(r'\[girm\s*([\d\-,]+)\](?im)(?!\()', comment.body)
+                girmRequestsToFind = re.findall(r'\[girm\s*([\d\-,\s]+)\](?im)(?!\()', comment.body)
                 if girmRequestsToFind:
                     requestIsValid,commandResponse = girmResponse.getResponse(girmRequestsToFind)
                     if requestIsValid:
