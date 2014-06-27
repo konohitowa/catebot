@@ -1,5 +1,5 @@
 # CateBot
-A reddit bot that is triggered by Catechism of the Catholic Church (CCC) paragraph references in reddit comments. It posts the contents of the CCC selection as a reply to the comment that contained the CCC paragraph reference.
+A reddit bot that is triggered by Catechism of the Catholic Church (CCC) paragraph references in reddit comments as well as references to other documents of the Roman Catholic Church. It posts the contents of the requested selection(s) as a reply to the comment that contained the request. For a full list of supported documents and subreddits, [see the CateBot FAQ](https://github.com/konohitowa/catebot/blob/master/docs/CateBot%20Info.md#faq)
 
 [See the bot in action!](http://www.reddit.com/user/CateBot)
 

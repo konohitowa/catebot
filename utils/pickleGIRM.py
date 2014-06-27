@@ -30,9 +30,15 @@ class GIRMParser(HTMLParser):
         if(tag == "p"):
             for attr in attrs:
                 name,value = attr
-                if(name == 'class' and value == 'parafirst'):
-                    self.inParagraph = True
-                    break
+                if(name == 'class'):
+                    if(value == 'parafirst'):
+                        if(self.inParagraph):
+                            self.addText()
+                        self.inParagraph = True
+                        break
+                    elif(not(value in ('para','list1first','list1middle','list1last'))):
+                        self.inParagraph = False
+                        self.addText()
         elif(tag == "a"):
                  for attr in attrs:
                      name,value = attr
@@ -45,9 +51,8 @@ class GIRMParser(HTMLParser):
             self.paragraphText += u"*"
                     
     def handle_endtag(self, tag):
-        if(tag == "p"):
-            self.inParagraph = False
-            self.addText()
+        if(tag == "p" and self.outputEnabled()):
+            self.paragraphText += "\n"
         elif(tag == "b" and self.outputEnabled()):
             self.paragraphText += u"**"
         elif(tag == "i" and self.outputEnabled()):
