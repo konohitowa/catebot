@@ -1,7 +1,7 @@
 # CateBot Changelog
 
-### May 21, 2014
-Continuing bug fixes and enhancements up through version 0.2.11. See closed [version 0.2+ issue list](https://github.com/konohitowa/catebot/issues?milestone=4&page=1&state=closed) at github.
+### June 27, 2014
+Continuing bug fixes and enhancements up through version 0.2.14. See closed [version 0.2+ issue list](https://github.com/konohitowa/catebot/issues?milestone=4&page=1&state=closed) at github.
 
 ### March 21, 2014
 Version 0.2. See [milestone list](https://github.com/konohitowa/catebot/issues?milestone=1&page=1&state=closed) at github.
