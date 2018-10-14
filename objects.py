@@ -153,7 +153,7 @@ class Response:
     # Takes the request key and http location as parameters. The function then constructs
     # the appropriate context link. This link appears on each paragraph number.
     def getContextLink(self, request, location):
-        return self._baseURL + location + '#para' + request
+        return 'http://www.scborromeo.org/ccc/para/' + request + '.htm'
 
     # Constructs and returns an overflow comment whenever the comment exceeds the character limit set by
     # getCharLimit(). Instead of posting the contents of the request(s) in the comment, it links to webpages
