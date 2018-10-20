@@ -46,18 +46,22 @@ CateBot ignores it.
 You are limited by the maximum size of a reddit response. The reddit API has a limit of 10,000 characters in
 a post; CateBot arbitrarily lowers this 8,000 characters. If the response is larger than that, CateBot
 lets you know and assembles a listing of links only rather than links with text. If this is also too large,
-it links as many paragraphs as it can and then gives an additional message letting you know that you blew
-that, too.
+it links as many paragraphs as it can and then gives an additional message letting you know that you exceeded
+that, too. This limit is being increased (see [Issue \#42](https://github.com/konohitowa/catebot/issues/42)).
 
 ### Wait. I've counted the characters and I didn't hit the limit!
-Look at the source instead; the links take up a fair amount of text.
+Look at the source instead; the links take up a fair amount of text. Looking at source is a [RES](https://redditenhancementsuite.com) feature.
 
 ### Why is the bot not responding to my comment?
-This could be attributed to a few different things:
+This could be attributed to a few different things (in no particular order):
 * Your paragraph reference doesn't follow the guidelines specified above.
 * The bot is down temporarily for maintenance/updates.
-* The bot is trying to keep up with commands (there is a 30 second sleep period between comment scan as well as some limits by reddit as to how frequently the bot can respond).
-* Reddit isn't responding to the bot during the windows in which it scans. This should be a temporary situation that is dependent upon reddit load.
+* The bot has a connectivity issue to the Internet.
+* The bot is trying to keep up with commands (reddit limits the rate of scanning as well as how frequently the bot can respond).
+* Reddit is having issues (you can check for those [here](https://reddit.statuspage.io).
+
+### Why does the bot respond to a request for Church documents and Bible verses with two different messages?
+Currently, there are two different bots running using the same account. One of them handles Church documents and the other handles Bible verses. This happened because Versebot was taken down so Catebot was filling in temporarily using the Versebot code. This was expected to be a temmporary situation but has ended up being a much longer term situation. The long term solution is to merge the Catebot and Versebot code into the same bot (see [Issue \#37](https://github.com/konohitowa/catebot/issues/37)).
 
 ### How do you pronounce CateBot?
 Like cate-chism. But, you know, with 'bot' in place of 'chism'.
@@ -68,4 +72,4 @@ Just ask me! You can [contact me on reddit](http://www.reddit.com/message/compos
 ### Is there any end matter to this FAQ?
 Yes!
 
-Okay - just kidding. I *would* link to thank the moderators of and contributors to [/r/Catholicsm](http://www.reddit.com/r/Catholicism) for putting up with my testing as well as generating test cases and suggestions/feedback. And a big thanks to [Matthieu Grieger](http://www.reddit.com/u/mgrieger) for open sourcing [versebot on github](http://github.com/matthieugrieger/versebot). If he hadn't done that, I highly doubt I would have had the ambition to build this from scratch and, if I had, it would have take me significantly longer.
+Okay - just kidding. I *would* link to thank the moderators of and contributors to [/r/Catholicsm](http://www.reddit.com/r/Catholicism) for putting up with my testing as well as generating test cases and suggestions/feedback. And a big thanks to [Matthieu Grieger](http://www.reddit.com/u/mgrieger) for open sourcing [versebot on github](http://github.com/matthieugrieger/versebot). If he hadn't done that, I highly doubt I would have had the ambition to build this from scratch and, if I had, it would have taken me significantly longer.
