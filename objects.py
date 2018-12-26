@@ -95,11 +95,11 @@ class Response:
  
     # Simply returns the comment footer found at the bottom of every comment posted by the bot.
     def getCommentFooter(self):
-        return ('\n***\n^Catebot ^' + self._configuration.getVersion() + ' ^links: [^Source ^Code](https://github.com/konohitowa/catebot)'
-               + ' ^| [^Feedback](https://github.com/konohitowa/catebot/issues)' 
-               + ' ^| [^Contact ^Dev](http://www.reddit.com/message/compose/?to=kono_hito_wa)'
-               + ' ^| [^FAQ](https://github.com/konohitowa/catebot/blob/master/docs/CateBot%20Info.md#faq)' 
-               + ' ^| [^Changelog](https://github.com/konohitowa/catebot/blob/master/docs/CHANGELOG.md)')
+        return ('\n***\nCatebot ' + self._configuration.getVersion() + ' links: [Source Code](https://github.com/konohitowa/catebot)'
+               + ' | [Feedback](https://github.com/konohitowa/catebot/issues)' 
+               + ' | [Contact Dev](http://www.reddit.com/message/compose/?to=kono_hito_wa)'
+               + ' | [FAQ](https://github.com/konohitowa/catebot/blob/master/docs/CateBot%20Info.md#faq)' 
+               + ' | [Changelog](https://github.com/konohitowa/catebot/blob/master/docs/CHANGELOG.md)')
 
 
     def getOverflowHeader(self, singular, plural, number):
