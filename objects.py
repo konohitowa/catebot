@@ -2,66 +2,6 @@ import re
 import sqlite3
 import time
 
-class Configuration:
-    
-    def __init__(self, databaseFilename, sandbox=False):
-        self._connection = sqlite3.connect(databaseFilename)
-        self._connection.row_factory = sqlite3.Row
-        cursor = self._connection.cursor()
-        cursor.execute("select * from configuration")
-        row = cursor.fetchone()
-        self._version = row['version']
-        self._username = row['username']
-        self._password = row['password']
-        self._clientId = row['clientId']
-        self._clientSecret = row['clientSecret']
-        self._catechismFilename = row['catechismFilename']
-        self._baltimoreFilename = row['baltimoreFilename']
-        self._canonFilename = row['canonFilename']
-        self._girmFilename = row['girmFilename']
-        subredditsList = list()
-        if sandbox:
-            condition = "sandbox = 1"
-        else:
-            condition = "enabled = 1"
-        cursor.execute("select subreddit from subreddits where " + condition)
-        for subreddit in cursor:
-            subredditsList.append(subreddit[0])
-        self._subreddits = "+".join(subredditsList)
-    
-    def getVersion(self):
-        return self._version
-        
-    def getCatechismFilename(self):
-        return self._catechismFilename
-
-    def getBaltimoreFilename(self):
-        return self._baltimoreFilename
-
-    def getCanonFilename(self):
-        return self._canonFilename
-
-    def getGIRMFilename(self):
-        return self._girmFilename
-
-    def getUsername(self):
-        return self._username
-
-    def getPassword(self):
-        return self._password
-
-    def getClientId(self):
-        return self._clientId
-
-    def getClientSecret(self):
-        return self._clientSecret
-
-    def getSubreddits(self):
-        return self._subreddits
-    
-    def getDatabaseConnection(self):
-        return self._connection
-
 #########################################################################
 # Base class for generating a catebot response. This is intended to be a parent to classes that
 # implement each type of response with overrides specific to them. The classes that are expected to be
@@ -81,7 +21,7 @@ class Configuration:
 #
 #########################################################################
 class Response:
-    
+
     # Set up the Catechism and initialize variables
     def __init__(self, dictionary, baseURL, configuration):
         self._dictionary = dictionary
@@ -92,22 +32,22 @@ class Response:
     # NOTE: reddit's character limit is 10,000 characters by default.
     def getCharLimit(self):
         return 9500
- 
+
     # Simply returns the comment footer found at the bottom of every comment posted by the bot.
     def getCommentFooter(self):
-        return ('\n***\nCatebot ' + self._configuration.getVersion() + ' links: [Source Code](https://github.com/konohitowa/catebot)'
-               + ' | [Feedback](https://github.com/konohitowa/catebot/issues)' 
+        return ('\n***\nCatebot ' + self._configuration.version + ' links: [Source Code](https://github.com/konohitowa/catebot)'
+               + ' | [Feedback](https://github.com/konohitowa/catebot/issues)'
                + ' | [Contact Dev](http://www.reddit.com/message/compose/?to=kono_hito_wa)'
-               + ' | [FAQ](https://github.com/konohitowa/catebot/blob/master/docs/CateBot%20Info.md#faq)' 
+               + ' | [FAQ](https://github.com/konohitowa/catebot/blob/master/docs/CateBot%20Info.md#faq)'
                + ' | [Changelog](https://github.com/konohitowa/catebot/blob/master/docs/CHANGELOG.md)')
 
 
     def getOverflowHeader(self, singular, plural, number):
         noun = singular
         if number > 1:
-            noun = plural            
+            noun = plural
         return 'The contents of the ' + noun + ' you quoted exceed the character limit ([' + str(self.getCharLimit()) + '](https://github.com/konohitowa/catebot/blob/master/docs/CateBot%20Info.md#wait-ive-counted-the-characters-and-i-didnt-hit-the-limit) characters). Instead, here are links to the ' + noun + '...\n\n'
-        
+
 
     def parsedRequests(self, requests, includeRanges = True):
         validRequests = list()
@@ -130,20 +70,20 @@ class Response:
                         validRequests.append(startingRequest)
                 elif subrequest in self._dictionary:
                         validRequests.append(subrequest)
-                            
+
         return validRequests
 
     # Constructs reddit comment response for Catechism requests.
     def getResponse(self, requests):
-        
+
         validRequests = self.parsedRequests(requests)
-                        
+
         if len(validRequests) > 0:
             comment = ''
             for request in validRequests:
                 content,location = self._dictionary[request]
                 comment += ('[**CCC ' + request + '**](' + self.getContextLink(request, location) + ') ' + content) + '\n\n'
- 
+
             comment = self.linkCrossReferences(comment)
             if len(comment) > self.getCharLimit():
                 comment = self.getOverflowComment(validRequests)
@@ -171,9 +111,9 @@ class Response:
             if len(comment) > self.getCharLimit():
                 comment += "\n\nAnd even when condensing the paragraphs to links, you still exceeded the quota..."
                 break
-        
+
         return self.getOverflowHeader('paragraph','paragraphs',numberOfRequests) + comment
-    
+
     def linkCrossReferences(self, comment):
         xrefBlocks = reversed(list(re.finditer(r'\([\d\,\s\-]+\)$(?m)',comment)))
         for xrefBlock in xrefBlocks:
@@ -195,7 +135,7 @@ class Response:
 #
 #########################################################################
 class BaltimoreResponse(Response):
-    
+
     def parsedRequests(self, requests, includeRanges = True):
         validRequests = list()
         for taggedRequest in requests:
@@ -225,11 +165,11 @@ class BaltimoreResponse(Response):
                         validRequests.append({'Book': bookNumber, 'Request': startingRequest})
                 elif subrequest in self._dictionary[bookNumber]:
                         validRequests.append({'Book': bookNumber, 'Request': subrequest})
-                            
+
         return validRequests
 
     def getResponse(self, requests):
-        
+
         validRequests = self.parsedRequests(requests)
 
         if len(validRequests) > 0:
@@ -239,7 +179,7 @@ class BaltimoreResponse(Response):
                 requestNumber = request['Request']
                 qa = self._dictionary[bookNumber][requestNumber]
                 comment += ('[**BCCD #' + bookNumber + " Q." + requestNumber + '**](' + self.getContextLink(bookNumber, requestNumber, qa['Q']) + ') ' + qa['Q'] + '\n\nA. ' + qa['A']) + '\n\n'
- 
+
             comment = self.linkCrossReferences(comment)
             if len(comment) > self.getCharLimit():
                 comment = self.getOverflowComment(validRequests)
@@ -276,9 +216,9 @@ class BaltimoreResponse(Response):
             if len(comment) > self.getCharLimit():
                 comment += "\n\nAnd even when condensing the requested questions to links, you still exceeded the quota..."
                 break
-        
+
         return self.getOverflowHeader('question','questions',numberOfRequests) + comment
-    
+
     # This needs to be filled out for the {} references in #3
     def linkCrossReferences(self,comment):
         return comment
@@ -303,7 +243,7 @@ class BaltimoreResponse(Response):
 #
 #########################################################################
 class CanonResponse(Response):
-    
+
     def parsedRequests(self, requests, includeRanges = True):
         validRequests = list()
         for request in requests:
@@ -327,11 +267,11 @@ class CanonResponse(Response):
                     key = subrequest.partition('s')[0]
                     if key in self._dictionary:
                         validRequests.append(subrequest)
-                            
+
         return validRequests
 
     def getResponse(self, requests):
-        
+
         validRequests = self.parsedRequests(requests)
 
         if len(validRequests) > 0:
@@ -352,8 +292,8 @@ class CanonResponse(Response):
                         comment += u"\u00A7"+sect+" "+content[sect]+"\n\n"
                 else:
                     comment += '[**Can. ' + key + '**](' + contextLink + ') ' + content
-                    
- 
+
+
             comment = self.linkCrossReferences(comment)
             if len(comment) > self.getCharLimit():
                 comment = self.getOverflowComment(validRequests)
@@ -377,10 +317,10 @@ class CanonResponse(Response):
             if len(comment) > self.getCharLimit():
                 comment += "\n\nAnd even when condensing the laws to links, you still exceeded the quota..."
                 break
-        
+
         return self.getOverflowHeader('law','laws',numberOfRequests) + comment
-    
-    # HERE 
+
+    # HERE
     def linkCrossReferences(self,comment):
         return comment
         xrefBlocks = reversed(list(re.finditer(r'cann*\.\s+\d+$(?m)',comment)))
@@ -405,15 +345,15 @@ class CanonResponse(Response):
 class GIRMResponse(Response):
 
     def getResponse(self, requests):
-        
+
         validRequests = self.parsedRequests(requests)
-                        
+
         if len(validRequests) > 0:
             comment = ''
             for request in validRequests:
                 content,location = self._dictionary[request]
                 comment += ('[**GIRM ' + request + '**](' + self.getContextLink(request, location) + ') ' + content) + '\n\n'
- 
+
             comment = self.linkCrossReferences(comment)
             if len(comment) > self.getCharLimit():
                 comment = self.getOverflowComment(validRequests)
@@ -439,4 +379,3 @@ class GIRMResponse(Response):
                 comment = comment[:start]+"["+paragraph+"]("+self.getContextLink(paragraph, location)+")"+comment[end:]
 
         return comment
-
