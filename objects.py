@@ -4,20 +4,27 @@ import time
 
 class Configuration:
     
-    def __init__(self, databaseFilename):
+    def __init__(self, databaseFilename, sandbox=False):
         self._connection = sqlite3.connect(databaseFilename)
         self._connection.row_factory = sqlite3.Row
         cursor = self._connection.cursor()
-        cursor.execute("select version,username,password,catechismFilename,canonFilename,girmFilename from configuration")
+        cursor.execute("select * from configuration")
         row = cursor.fetchone()
-        self._version = row[0]
-        self._username = row[1]
-        self._password = row[2]
-        self._catechismFilename = row[3]
-        self._canonFilename = row[4]
-        self._girmFilename = row[5]
+        self._version = row['version']
+        self._username = row['username']
+        self._password = row['password']
+        self._clientId = row['clientId']
+        self._clientSecret = row['clientSecret']
+        self._catechismFilename = row['catechismFilename']
+        self._baltimoreFilename = row['baltimoreFilename']
+        self._canonFilename = row['canonFilename']
+        self._girmFilename = row['girmFilename']
         subredditsList = list()
-        cursor.execute("select subreddit from subreddits where enabled = 1")
+        if sandbox:
+            condition = "sandbox = 1"
+        else:
+            condition = "enabled = 1"
+        cursor.execute("select subreddit from subreddits where " + condition)
         for subreddit in cursor:
             subredditsList.append(subreddit[0])
         self._subreddits = "+".join(subredditsList)
@@ -27,6 +34,9 @@ class Configuration:
         
     def getCatechismFilename(self):
         return self._catechismFilename
+
+    def getBaltimoreFilename(self):
+        return self._baltimoreFilename
 
     def getCanonFilename(self):
         return self._canonFilename
@@ -40,25 +50,18 @@ class Configuration:
     def getPassword(self):
         return self._password
 
+    def getClientId(self):
+        return self._clientId
+
+    def getClientSecret(self):
+        return self._clientSecret
+
     def getSubreddits(self):
         return self._subreddits
     
     def getDatabaseConnection(self):
         return self._connection
 
-class Logger:
-    def __init__(self, connection):
-        self._connection = connection
-        
-    # Types are 'i' (informational), 'w' (warning), 'e' (error), 'x' (exception)
-    def log(self, message, logtype="i"):
-        try:
-            cursor = self._connection.cursor()
-            cursor.execute("insert into logs (message, type, utc_time) values(?,?,?)", (message, logtype, int(time.time())))
-            self._connection.commit()
-        except:
-            print("Unable to log ",message,logtype,time.strftime("%a, %d %b %Y %H:%M:%S +0000", time.gmtime())," due to exception ",sys.exc_info()[0])
-        
 #########################################################################
 # Base class for generating a catebot response. This is intended to be a parent to classes that
 # implement each type of response with overrides specific to them. The classes that are expected to be
@@ -88,7 +91,7 @@ class Response:
     # Just returns the current character limit for the reddit comment. Makes it easy to find/change in the future.
     # NOTE: reddit's character limit is 10,000 characters by default.
     def getCharLimit(self):
-        return 8000
+        return 9500
  
     # Simply returns the comment footer found at the bottom of every comment posted by the bot.
     def getCommentFooter(self):
@@ -183,6 +186,115 @@ class Response:
                 comment = comment[:start]+"["+paragraph+"]("+self.getContextLink(paragraph, location)+")"+comment[end:]
 
         return comment
+
+#########################################################################
+#
+# Constructs reddit comment response for Balitmore Catechism requests of
+# the form [bccd 1], [bccd 1-5], [bccd 1-5,9-10], and the same forms with
+# a BCCD book #, such as [bccd #1 1-5, 10-12]. The default book is #2.
+#
+#########################################################################
+class BaltimoreResponse(Response):
+    
+    def parsedRequests(self, requests, includeRanges = True):
+        validRequests = list()
+        for taggedRequest in requests:
+            bookNumber = '2'
+            bookRequest, request = taggedRequest
+            bookRequest = re.sub(r"\s+","",bookRequest)
+            request = re.sub(r"\s+","",request)
+            bookMatch = re.match(r'#(\d+)', bookRequest)
+            if bookMatch:
+                bookNumber = bookMatch.group(1)
+                if int(bookNumber) < 1 or int(bookNumber) > 4:
+                    bookNumber = '2'
+            if ',' in request:
+                sublist = request.split(',')
+            else:
+                sublist = [ request ]
+            for subrequest in sublist:
+                if '-' in subrequest:
+                    startingRequest = subrequest.partition('-')[0]
+                    if includeRanges:
+                        endingRequest = subrequest.partition('-')[2]
+                        if int(startingRequest) < int(endingRequest)+1:
+                            for key in range(int(startingRequest), int(endingRequest)+1):
+                                if str(key) in self._dictionary[bookNumber]:
+                                    validRequests.append({'Book': bookNumber, 'Request': str(key)})
+                    elif startingRequest in self._dictionary[bookNumber]:
+                        validRequests.append({'Book': bookNumber, 'Request': startingRequest})
+                elif subrequest in self._dictionary[bookNumber]:
+                        validRequests.append({'Book': bookNumber, 'Request': subrequest})
+                            
+        return validRequests
+
+    def getResponse(self, requests):
+        
+        validRequests = self.parsedRequests(requests)
+
+        if len(validRequests) > 0:
+            comment = ''
+            for request in validRequests:
+                bookNumber = request['Book']
+                requestNumber = request['Request']
+                qa = self._dictionary[bookNumber][requestNumber]
+                comment += ('[**BCCD #' + bookNumber + " Q." + requestNumber + '**](' + self.getContextLink(bookNumber, requestNumber, qa['Q']) + ') ' + qa['Q'] + '\n\nA. ' + qa['A']) + '\n\n'
+ 
+            comment = self.linkCrossReferences(comment)
+            if len(comment) > self.getCharLimit():
+                comment = self.getOverflowComment(validRequests)
+
+            comment += self.getCommentFooter()
+            return True,comment
+        else:
+            return False,""
+
+    # This needs to be updated when an actual linkable source is available
+    #q.2_who_is_god.3F #self._baseURL
+    def getContextLink(self, bookNumber, questionNumber, questionText):
+        modifiedQuestionText = re.sub(r'\s','_',questionText).lower()
+        modifiedQuestionText = re.sub(r',','.2C',modifiedQuestionText)
+        modifiedQuestionText = re.sub(r'\?','.3F',modifiedQuestionText)
+        partitionText = ""
+        if int(bookNumber) == 4:
+            partitionText = "_"
+            if int(questionNumber) < 211:
+                partitionText += "1"
+            else:
+                partitionText += "2"
+        return 'https://www.reddit.com/r/Catebot/wiki/bccd_' + bookNumber + partitionText + '#wiki_q.' + questionNumber + '_' + modifiedQuestionText
+
+    def getOverflowComment(self, requests):
+        numberOfRequests = 0
+        comment = ''
+        for request in requests:
+            numberOfRequests += 1
+            bookNumber = request['Book']
+            requestNumber = request['Request']
+            qa = self._dictionary[bookNumber][requestNumber]
+            comment += ('([' + requestNumber + '](' + self.getContextLink(bookNumber, requestNumber, qa['Q']) + '))\n')
+            if len(comment) > self.getCharLimit():
+                comment += "\n\nAnd even when condensing the requested questions to links, you still exceeded the quota..."
+                break
+        
+        return self.getOverflowHeader('question','questions',numberOfRequests) + comment
+    
+    # This needs to be filled out for the {} references in #3
+    def linkCrossReferences(self,comment):
+        return comment
+        xrefBlocks = reversed(list(re.finditer(r'cann*\.\s+\d+$(?m)',comment)))
+        for xrefBlock in xrefBlocks:
+            xrefs = reversed(list(re.finditer(r'\d+',xrefBlock.group(0))))
+            for xref in xrefs:
+                paragraph = xref.group(0)
+                content,location = self._Catechism[paragraph]
+                contextLink = self.__getCanonContextLink(paragraph, location)
+                start = xrefBlock.start()+xref.start()
+                end = xrefBlock.start()+xref.end()
+                comment = comment[:start]+"["+paragraph+"]("+contextLink+")"+comment[end:]
+
+        return comment
+
 
 #########################################################################
 #

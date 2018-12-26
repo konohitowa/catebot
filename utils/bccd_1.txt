@@ -1,0 +1,2621 @@
+﻿The Project Gutenberg EBook of Baltimore Catechism No. 1 (of 4), by Anonymous
+
+This eBook is for the use of anyone anywhere at no cost and with
+almost no restrictions whatsoever.  You may copy it, give it away or
+re-use it under the terms of the Project Gutenberg License included
+with this eBook or online at www.gutenberg.net
+
+
+Title: Baltimore Catechism No. 1 (of 4)
+
+Author: Anonymous
+
+Release Date: January 1, 2005 [EBook #14551]
+
+Language: English
+
+
+*** START OF THIS PROJECT GUTENBERG EBOOK BALTIMORE CATECHISM NO. 1 (OF 4) ***
+
+
+
+
+Produced by Dennis McCarthy
+
+
+
+
+
+A CATECHISM OF
+CHRISTIAN DOCTRINE
+
+
+Prepared and Enjoined by Order of
+The Third Plenary Council of Baltimore
+
+
+QUESTIONS NUMBERED TO AGREE WITH
+"EXPLANATION OF THE BALTIMORE CATECHISM"
+
+
+WITH PRAYERS AND HYMNS
+
+
+No. 1
+
+{For First Communion Classes}
+
+
+
+
+IMPRIMATUR
+
+New York, April 6, 1885. John Cardinal McCloskey, Archbishop of New
+York.
+
+Baltimore, April 6, 1885. "The Catechism ordered by The Third Plenary
+Council of Baltimore, having been diligently compared and examined, is
+hereby approved."
++ James Gibbons, Archbishop of Baltimore, Apostolic Delegate.
+
+
+
+
+{Transcriber's Note: This book is commonly known as "The Baltimore
+Catechism No. 1" and is part of a four volume e-text collection. See
+the author's note to Baltimore Catechism No. 3 for the background and
+purpose of the series. Please note that there are gaps in the numbering,
+and some questions are out of order, because Catechism No. 1 is
+essentially an abridgement of Catechism No. 2. There are also minor
+phrasing differences in some of the questions and answers of this text
+compared with No. 2. This e-text collection is substantially based on
+files generously provided by http://www.catholic.net/ with some missing
+material transcribed and added for this release. Transcriber's notes in
+this series are placed within braces, and usually prefixed "T.N.:".}
+
+
+
+
+PRAYERS
+
+
+THE LORD'S PRAYER
+
+Our Father, who art in heaven, hallowed be Thy name: Thy kingdom come;
+Thy will be done on earth as it is in heaven. Give us this day our daily
+bread; and forgive us our trespasses as we forgive those who trespass
+against us: and lead us not into temptation, but deliver us from evil.
+Amen.
+
+
+THE ANGELICAL SALUTATION
+
+Hail Mary, full of grace! the Lord is with thee: blessed art thou
+amongst women, and blessed is the fruit of thy womb, Jesus. Holy Mary,
+Mother of God, pray for us sinners, now and at the hour of our death.
+Amen.
+
+
+THE APOSTLES' CREED
+
+I believe in God, the Father Almighty, Creator of heaven and earth; and
+in Jesus Christ, His only Son, our Lord; who was conceived by the Holy
+Ghost, born of the Virgin Mary, suffered under Pontius Pilate, was
+crucified: died, and was buried. He descended into hell: the third day
+He arose again from the dead: He ascended into heaven, sitteth at the
+right hand of God, the Father Almighty; from thence He shall come to
+judge the living and the dead. I believe in the Holy Ghost the Holy
+Catholic Church, the communion of Saints, the forgiveness of sins, the
+resurrection of the body, and the life everlasting. Amen.
+
+
+THE CONFITEOR
+
+I confess to Almighty God, to blessed Mary, ever Virgin, to blessed
+Michael the Archangel, to blessed John the Baptist, to the holy Apostles
+Peter and Paul, and to all the Saints, that I have sinned exceedingly in
+thought, word and deed, through my fault, through my fault, through my
+most grievous fault. Therefore, I beseech blessed Mary, ever Virgin,
+blessed Michael the Archangel, blessed John the Baptist, the holy
+Apostles Peter and Paul, and all the Saints, to pray to the Lord our God
+for me.
+
+May the Almighty God have mercy on me, and forgive me my sins, and bring
+me to everlasting life. Amen.
+
+May the Almighty and merciful Lord grant me pardon, absolution, and
+remission of all my sins. Amen.
+
+
+AN ACT OF FAITH
+
+O my God! I firmly believe that Thou art one God in three Divine
+Persons, Father, Son, and Holy Ghost; I believe that Thy Divine Son
+became man, and died for our sins, and that he will come to judge the
+living and the dead. I believe these and all the truths which the Holy
+Catholic Church teaches, because Thou hast revealed them, who canst
+neither deceive nor be deceived.
+
+
+AN ACT OF HOPE
+
+O my God! relying on Thy infinite goodness and promises, I hope to
+obtain pardon of my sins, the help of Thy grace, and life everlasting,
+through the merits of Jesus Christ, my Lord and Redeemer.
+
+
+AN ACT OF LOVE
+
+O my God! I love Thee above all things, with my whole heart and soul,
+because Thou art all-good and worthy of all love. I love my neighbor as
+myself for the love of Thee. I forgive all who have injured me, and ask
+pardon of all whom I have injured.
+
+
+AN ACT OF CONTRITION
+
+O my God! I am heartily sorry for having offended Thee, and I detest all
+my sins, because I dread the loss of heaven and the pains of hell, but
+most of all because they offend Thee, my God, who art all-good and
+deserving of all my love. I firmly resolve, with the help of Thy grace,
+to confess my sins, to do penance, and to amend my life.
+
+
+THE BLESSING BEFORE MEALS
+
++ Bless us, O Lord! and these Thy gifts, which we are about to receive
+from Thy bounty, through Christ our Lord. Amen.
+
+
+GRACE AFTER MEALS
+
++ We give Thee thanks for all Thy benefits, O Almighty God, who livest
+and reignest forever, and may the souls of the faithful departed
+through the mercy of God, rest in peace. Amen.
+
+
+THE MANNER IN WHICH A LAY PERSON IS TO BAPTIZE IN CASE OF NECESSITY
+
+Pour common water on the head or face of the person to be baptized, and
+say while pouring it:
+
+"I baptize thee in the name of the Father, and of the Son, and of the
+Holy Ghost."
+
+N.B. Any person of either sex who has reached the use of reason can
+baptize in case of necessity, but the same person must say the words
+while pouring the water.
+
+
+
+
+CATECHISM
+
+
+
+LESSON FIRST
+ON THE END OF MAN
+
+
+1. Q. Who made the world?
+A. God made the world.
+
+2. Q. Who is God?
+A. God is the Creator of heaven and earth, and of all things.
+
+3. Q. What is man?
+A. Man is a creature composed of body and soul, and made to the image
+and likeness of God.
+
+6. Q. Why did God make you?
+A. God made me to know Him, to love Him, and to serve Him in this world,
+and to be happy with Him forever in the next.
+
+9. Q. What must we do to save our souls?
+A. To save our souls, we must worship God by faith, hope, and charity;
+that is, we must believe in Him, hope in Him, and love Him with all our
+heart.
+
+10. Q. How shall we know the things which we are to believe?
+A. We shall know the things which we are to believe from the Catholic
+Church, through which God speaks to us.
+
+11. Q. Where shall we find the chief truths which the Church teaches?
+A. We shall find the chief truths which the Church teaches in the
+Apostles' Creed.
+
+12. Q. Say the Apostles' Creed.
+A. I believe in God, the Father Almighty, Creator of heaven and earth;
+and in Jesus Christ, His only Son, our Lord; who was conceived by the
+Holy Ghost, born of the Virgin Mary, suffered under Pontius Pilate, was
+crucified; died, and was buried. He descended into hell: the third day
+He arose again from the dead: He ascended into heaven, and sitteth at
+the right hand of God, the Father Almighty; from thence He shall come to
+judge the living and the dead. I believe in the Holy Ghost, the Holy
+Catholic Church, the communion of Saints, the forgiveness of sins, the
+resurrection of the body, and the life everlasting. Amen.
+
+
+
+LESSON SECOND
+ON GOD AND HIS PERFECTIONS
+
+
+13. Q. What is God?
+A. God is a spirit infinitely perfect.
+
+14. Q. Had God a beginning?
+A. God had no beginning; He always was and He always will be.
+
+15. Q. Where is God?
+A. God is everywhere.
+
+16. Q. If God is everywhere, why do we not see Him?
+A. We do not see God, because He is a pure spirit and cannot be seen
+with bodily eyes.
+
+17. Q. Does God see us?
+A. God sees us and watches over us.
+
+18. Q. Does God know all things?
+A. God knows all things, even our most secret thoughts, words, and
+actions.
+
+19. Q. Can God do all things?
+A. God can do all things, and nothing is hard or impossible to Him.
+
+20. Q. Is God just, holy, and merciful?
+A. God is all just, all holy, all merciful, as He is infinitely perfect.
+
+
+
+LESSON THIRD
+ON THE UNITY AND TRINITY OF GOD
+
+
+21. Q. Is there but one God?
+A. Yes; there is but one God.
+
+22. Q. Why can there be but one God?
+A. There can be but one God, because God, being supreme and infinite,
+cannot have an equal.
+
+23. Q. How many Persons are there in God?
+A. In God there are three Divine Persons, really distinct, and equal in
+all things--the Father, the Son, and the Holy Ghost.
+
+24. Q. Is the Father God?
+A. The Father is God and the first Person of the Blessed Trinity.
+
+25. Q. Is the Son God?
+A. The Son is God and the second Person of the Blessed Trinity.
+
+26. Q. Is the Holy Ghost God?
+A. The Holy Ghost is God and the third Person of the Blessed Trinity.
+
+27. Q. What is the Blessed Trinity?
+A. The Blessed Trinity is one God in three Divine Persons.
+
+29. Q. Are the three Divine Persons one and the same God?
+A. The three Divine Persons are one and the same God, having one and the
+same Divine nature.
+
+
+
+LESSON FOURTH
+ON THE ANGELS AND OUR FIRST PARENTS
+
+
+34. Q. Which are the chief creatures of God?
+A. The chief creatures of God are men and angels.
+
+35. Q. What are angels?
+A. Angels are bodiless spirits created to adore and enjoy God in heaven.
+
+39. Q. Who were the first man and woman?
+A. The first man and woman were Adam and Eve.
+
+40. Q. Were Adam and Eve innocent and holy when they came from the hand
+of God?
+A. Adam and Eve were innocent and holy when they came from the hand of
+God.
+
+43. Q. Did Adam and Eve remain faithful to God?
+A. Adam and Eve did not remain faithful to God; but broke His command by
+eating the forbidden fruit.
+
+44. Q. What befell Adam and Eve on account of their sin?
+A. Adam and Eve, on account of their sin, lost innocence and holiness,
+and were doomed to misery and death.
+
+45. Q. What evil befell us through the disobedience of our first
+parents?
+A. Through the disobedience of our first parents we all inherit their
+sin and punishment, as we should have shared in their happiness if they
+had remained faithful.
+
+47. Q. What is the sin called which we inherit from our first parents?
+A. The sin which we inherit from our first parents is called original
+sin.
+
+50. Q. Was any one ever preserved from original sin?
+A. The Blessed Virgin Mary, through the merits of her Divine Son, was
+preserved free from the guilt of original sin, and this privilege is
+called her Immaculate Conception.
+
+
+
+LESSON FIFTH
+ON SIN AND ITS KINDS
+
+
+51. Q. Is original sin the only kind of sin?
+A. Original sin is not the only kind of sin; there is another kind of
+sin, which we commit ourselves, called actual sin.
+
+52. Q. What is actual sin?
+A. Actual sin is any wilful thought, word, deed or omission contrary to
+the law of God.
+
+53. Q. How many kinds of actual sin are there?
+A. There are two kinds of actual sin--mortal and venial.
+
+54. Q. What is mortal sin?
+A. Mortal sin is a grievous offense against the law of God.
+
+57. Q. What is venial sin?
+A. Venial sin is a slight offense against the law of God in matters of
+less importance; or in matters of great importance it is an offense
+committed without sufficient reflection or full consent of the will.
+
+59. Q. Which are the chief sources of sin?
+A. The chief sources of sin are seven: Pride, Covetousness, Lust, Anger,
+Gluttony, Envy, and Sloth; and they are commonly called capital sins.
+
+
+
+LESSON SIXTH
+ON THE INCARNATION AND REDEMPTION
+
+
+60. Q. Did God abandon man after he fell into sin?
+A. God did not abandon man after he fell into sin, but promised him a
+Redeemer, who was to satisfy for man's sin and reopen to him the gates
+of heaven.
+
+61. Q. Who is the Redeemer?
+A. Our Blessed Lord and Saviour Jesus Christ is the Redeemer of mankind.
+
+62. Q. What do you believe of Jesus Christ?
+A. I believe that Jesus Christ is the Son of God, the second Person of
+the Blessed Trinity, true God and true man.
+
+69. Q. What do you mean by the Incarnation?
+A. By the Incarnation I mean that the Son of God was made man.
+
+70. Q. How was the Son of God made man?
+A. The Son of God was conceived and made man by the power of the Holy
+Ghost, in the womb of the Blessed Virgin Mary.
+
+74. Q. On what day was the Son of God conceived and made man?
+A. The Son of God was conceived and made man on Annunciation day--the
+day on which the Angel Gabriel announced to the Blessed Virgin Mary that
+she was to be the Mother of God.
+
+75. Q. On what day was Christ born?
+A. Christ was born on Christmas day in a stable at Bethlehem, over
+nineteen hundred years ago.
+
+
+
+LESSON SEVENTH
+ON OUR LORD'S PASSION, DEATH, RESURRECTION, AND ASCENSION
+
+
+78. Q. What did Jesus Christ suffer?
+A. Jesus Christ suffered a bloody sweat, a cruel scourging, was crowned
+with thorns, and was crucified.
+
+79. Q. On what day did Christ die?
+A. Christ died on Good Friday.
+
+83. Q. Why did Christ suffer and die?
+A. Christ suffered and died for our sins.
+
+89. Q. On what day did Christ rise from the dead?
+A. Christ rose from the dead, glorious and immortal, on Easter Sunday,
+the third day after His death.
+
+91. Q. After Christ had remained forty days on earth, whither did He go?
+A. After forty days Christ ascended into heaven, and the day on which He
+ascended into heaven is called Ascension day.
+
+
+
+LESSON EIGHTH
+ON THE HOLY GHOST AND HIS DESCENT UPON THE APOSTLES
+
+
+94. Q. Who is the Holy Ghost?
+A. The Holy Ghost is the third Person of the Blessed Trinity.
+
+97. Q. On what day did the Holy Ghost come down upon the Apostles?
+A. The Holy Ghost came down upon the Apostles ten days after the
+Ascension of our Lord; and the day on which He came down upon the
+Apostles is called Whitsunday, or Pentecost.
+
+99. Q. Who sent the Holy Ghost upon the Apostles?
+A. Our Lord Jesus Christ sent the Holy Ghost upon the Apostles.
+
+100. Q. Why did Christ send the Holy Ghost?
+A. Christ sent the Holy Ghost to sanctify His Church, to enlighten and
+strengthen the Apostles, and to enable them to preach the Gospel.
+
+
+
+LESSON NINTH
+ON THE EFFECTS OF THE REDEMPTION
+
+
+102. Q. Which are the chief effects of the Redemption?
+A. The chief effects of the Redemption are two: The satisfaction of
+God's justice by Christ's sufferings and death, and the gaining of grace
+for men.
+
+103. Q. What do you mean by grace?
+A. By grace I mean a supernatural gift of God bestowed on us, through
+the merits of Jesus Christ, for our salvation.
+
+104. Q. How many kinds of grace are there?
+A. There are two kinds of grace, sanctifying grace and actual grace.
+
+105. Q. What is sanctifying grace?
+A. Sanctifying grace is that grace which makes the soul holy and
+pleasing to God.
+
+110. Q. What is actual grace?
+A. Actual grace is that help of God which enlightens our mind and moves
+our will to shun evil and do good.
+
+{T.N.: The above question is out of numerical order in the printed
+source of Baltimore Catechism No. 1.}
+
+107. Q. What is Faith?
+A. Faith is a Divine virtue by which we firmly believe the truths which
+God has revealed.
+
+108. Q. What is Hope?
+A. Hope is a Divine virtue by which we firmly trust that God will give
+us eternal life and the means to obtain it.
+
+109. Q. What is Charity?
+A. Charity is a Divine virtue by which we love God above all things for
+His own sake, and our neighbor as ourselves for the love of God.
+
+
+
+LESSON TENTH
+ON THE CHURCH
+
+
+114. Q. Which are the means instituted by our Lord to enable men at all
+times to share in the fruits of the Redemption?
+A. The means instituted by our Lord to enable men at all times to share
+in the fruits of His Redemption are the Church and the Sacraments.
+
+115. Q. What is the Church?
+A. The Church is the congregation of all those who profess the faith of
+Christ, partake of the same Sacraments, and are governed by their lawful
+pastors under one visible Head.
+
+116. Q. Who is the invisible Head of the Church?
+A. Jesus Christ is the invisible Head of the Church.
+
+117. Q. Who is the visible Head of the Church?
+A. Our Holy Father the Pope, the Bishop of Rome, is the Vicar of Christ
+on earth, and the visible Head of the Church.
+
+128. Q. Has the Church any marks by which it may be known?
+A. The Church has four marks by which it may be known: it is One; it is
+Holy; it is Catholic; it is Apostolic.
+
+133. Q. In which Church are these marks found?
+A. These marks are found in the Holy Roman Catholic Church alone.
+
+
+
+LESSON ELEVENTH
+ON THE SACRAMENTS IN GENERAL
+
+
+136. Q. What is a Sacrament?
+A. A Sacrament is an outward sign instituted by Christ to give grace.
+
+137. Q. How many Sacraments are there?
+A. There are seven Sacraments: Baptism, Confirmation, Holy Eucharist,
+Penance, Extreme Unction, Holy Orders, and Matrimony.
+
+138. Q. Whence have the Sacraments the power of giving grace?
+A. The Sacraments have the power of giving grace from the merits of
+Jesus Christ.
+
+147. Q. Do the Sacraments always give grace?
+A. The Sacraments always give grace, if we receive them with the right
+dispositions.
+
+148. Q. Can we receive the Sacraments more than once?
+A. We can receive the Sacraments more than once, except Baptism,
+Confirmation, and Holy Orders.
+
+
+
+LESSON TWELFTH
+ON BAPTISM
+
+
+152. Q. What is Baptism?
+A. Baptism is a Sacrament which cleanses us from original sin, makes us
+Christians, children of God, and heirs of heaven.
+
+153. Q. Are actual sins ever remitted by Baptism?
+A. Actual sins and all the punishment due to them are remitted by
+Baptism, if the person baptized be guilty of any, and is rightly
+disposed.
+
+154. Q. Is Baptism necessary to salvation?
+A. Baptism is necessary to salvation, because without it we cannot enter
+into the kingdom of heaven.
+
+155. Q. Who can administer Baptism?
+A. The priest is the ordinary minister of Baptism; but in case of
+necessity any one who has the use of reason may baptize.
+
+156. Q. How is Baptism given?
+A. Whoever baptizes should pour water on the head of the person to be
+baptized, and say, while pouring the water: I baptize thee in the name
+of the Father, and of the Son, and of the Holy Ghost.
+
+
+
+LESSON THIRTEENTH
+ON CONFIRMATION
+
+
+166. Q. What is Confirmation?
+A. Confirmation is a Sacrament through which we receive the Holy Ghost
+to make us strong and perfect Christians and soldiers of Jesus Christ.
+
+167. Q. Who administers Confirmation?
+A. The bishop is the ordinary minister of Confirmation.
+
+168. Q. How does the bishop give Confirmation?
+A. The bishop extends his hands over those who are to be confirmed,
+prays that they may receive the Holy Ghost, and anoints the forehead of
+each with holy chrism in the form of a cross.
+
+170. Q. What does the bishop say in anointing the person he confirms?
+A. In anointing the person he confirms the bishop says: I sign thee with
+the sign of the cross, and I confirm thee with the chrism of salvation,
+in the name of the Father, and of the Son, and of the Holy Ghost.
+
+173. Q. To receive Confirmation worthily is it necessary to be in the
+state of grace?
+A. To receive Confirmation worthily it is necessary to be in the state
+of grace.
+
+173a. Q. What is a state of grace?
+A. A state of grace is freedom from mortal sin.
+
+{T.N.: The above question is numbered 174 in the printed source, but a
+different question is given in its place in Baltimore Catechism Nos. 2
+and 4, where the topic is covered in Q. 55 and elsewhere.}
+
+175. Q. Is it a sin to neglect Confirmation?
+A. It is a sin to neglect Confirmation, especially in these evil days
+when faith and morals are exposed to so many and such violent
+temptations.
+
+
+
+LESSON FOURTEENTH
+ON THE SACRAMENT OF PENANCE
+
+
+187. Q. What is the Sacrament of Penance?
+A. Penance is a Sacrament in which the sins committed after Baptism are
+forgiven.
+
+191. Q. What must we do to receive the Sacrament of Penance worthily?
+A. To receive the Sacrament of Penance worthily we must do five things:
+
+1. We must examine our conscience.
+2. We must have sorrow for our sins.
+3. We must make a firm resolution never more to offend God.
+4. We must confess our sins to the priest.
+5. We must accept the penance which the priest gives us.
+
+192. Q. What is the examination of conscience?
+A. The examination of conscience is an earnest effort to recall to mind
+all the sins we have committed since our last worthy confession.
+
+
+
+LESSON FIFTEENTH
+ON CONTRITION
+
+
+195. Q. What is contrition, or sorrow for sin?
+A. Contrition, or sorrow for sin, is a hatred of sin and a true grief of
+the soul for having offended God, with a firm purpose of sinning no
+more.
+
+201. Q. Why should we be sorry for our sins?
+A. We should be sorry for our sins, because sin is the greatest of evils
+and an offense against God our Creator, Preserver, and Redeemer, and
+because mortal sin shuts us out of heaven and condemns us to the eternal
+pains of hell.
+
+206. Q. What do you mean by a firm purpose of sinning no more?
+A. By a firm purpose of sinning no more I mean a fixed resolve not only
+to avoid all mortal sin, but also its near occasions.
+
+207. Q. What do you mean by the near occasions of sin?
+A. By the near occasions of sin I mean all the persons, places, and
+things that may easily lead us into sin.
+
+
+
+LESSON SIXTEENTH
+ON CONFESSION
+
+
+208. Q. What is Confession?
+A. Confession is the telling of our sins to a duly authorized priest,
+for the purpose of obtaining forgiveness.
+
+209. Q. What sins are we bound to confess?
+A. We are bound to confess all our mortal sins, but it is well also to
+confess our venial sins.
+
+214. Q. What should we do if we cannot remember the number of our sins?
+A. If we cannot remember the number of our sins, we should tell the
+number as nearly as possible.
+
+216. Q. Is it a grievous offense wilfully to conceal a mortal sin in
+Confession?
+A. It is a grievous offense wilfully to conceal a mortal sin in
+Confession, because we thereby tell a lie to the Holy Ghost, and make
+our Confession worthless.
+
+217. Q. What must he do who has wilfully concealed a mortal sin in
+Confession?
+A. He who has wilfully concealed a mortal sin in Confession must not
+only confess it, but must also repeat all the sins he has committed
+since his last worthy Confession.
+
+218. Q. Why does the priest give us a penance after Confession?
+A. The priest gives us a penance after Confession that we may satisfy
+God for the temporal punishment due to our sins.
+
+
+
+LESSON SEVENTEENTH
+ON INDULGENCES
+
+
+231. Q. What is an Indulgence?
+A. An Indulgence is the remission in whole or in part of the temporal
+punishment due to sin.
+
+233. Q. How many kinds of Indulgences are there?
+A. There are two kinds of Indulgences--Plenary and Partial.
+
+234. Q. What is a Plenary Indulgence?
+A. A Plenary Indulgence is the full remission of the temporal punishment
+due to sin.
+
+235. Q. What is a Partial Indulgence?
+A. A Partial Indulgence is the remission of a part of the temporal
+punishment due to sin.
+
+237. Q. What must we do to gain an Indulgence?
+A. To gain an Indulgence we must be in the state of grace and perform
+the works enjoined.
+
+
+
+LESSON EIGHTEENTH
+ON THE HOLY EUCHARIST
+
+
+238. Q. What is the Holy Eucharist?
+A. The Holy Eucharist is the Sacrament which contains the body and
+blood, soul and divinity, of our Lord Jesus Christ under the appearances
+of bread and wine.
+
+245. Q. What do you mean by the appearances of bread and wine?
+A. By the appearances of bread and wine I mean the figure, the color,
+the taste, and whatever appears to the senses.
+
+249. Q. When did Christ give His priests the power to change bread and
+wine into His body and blood?
+A. Christ gave His priests the power to change bread and wine into His
+body and blood when He said to the Apostles, Do this for a commemoration
+of Me.
+
+250. Q. How do the priests exercise this power of changing bread and
+wine into the body and blood of Christ?
+A. The priests exercise this power of changing bread and wine into the
+body and blood of Christ through the words of consecration in the Mass,
+which are the words of Christ: This is My body; this is My blood.
+
+
+
+LESSON NINTEENTH
+ON THE ENDS FOR WHICH THE HOLY EUCHARIST WAS INSTITUTED
+
+
+251. Q. Why did Christ institute the Holy Eucharist?
+A. Christ instituted the Holy Eucharist--
+
+1. To unite us to Himself and to nourish our soul with His body and
+   blood.
+2. To increase sanctifying grace and all virtues in our soul.
+3. To lessen our evil inclinations.
+4. To be a pledge of everlasting life.
+5. To fit our bodies for a glorious resurrection.
+6. To continue the sacrifice of the cross in His Church.
+
+253. Q. What is Holy Communion?
+A. Holy Communion is the receiving of the body and blood of Christ.
+
+254. Q. What is necessary to make a good Communion?
+A. To make a good Communion it is necessary to be in the state of
+grace and to be fasting for one hour from food and all drinks, except
+water.
+
+[This answer has been changed in the 1977 edition to bring it up to
+date with the current rules.]
+
+255. Q. Does he who receives Communion in mortal sin receive the body
+and blood of Christ?
+A. He who receives Communion in mortal sin receives the body and blood
+of Christ, but does not receive His grace, and he commits a great
+sacrilege.
+
+
+
+LESSON TWENTIETH
+ON THE SACRIFICE OF THE MASS
+
+
+262. Q. When are the bread and wine changed into the body and blood of
+Christ?
+A. The bread and wine are changed into the body and blood of Christ at
+the consecration in the Mass.
+
+263. Q. What is the Mass?
+A. The Mass is the unbloody sacrifice of the body and blood of Christ.
+
+265. Q. Is the Mass the same sacrifice as that of the cross?
+A. The Mass is the same sacrifice as that of the cross.
+
+269. Q. How should we assist at Mass?
+A. We should assist at Mass with great interior recollection and piety,
+and with every outward mark of respect and devotion.
+
+
+
+LESSON TWENTY-FIRST
+ON EXTREME UNCTION AND HOLY ORDERS
+
+
+271. Q. What is the Sacrament of Extreme Unction?
+A. Extreme Unction is the Sacrament which, through the anointing and
+prayer of the priest, gives health and strength to the soul, and
+sometimes to the body, when we are in danger of death from sickness.
+
+274. Q. Which are the effects of the Sacrament of Extreme Unction?
+A. The effects of Extreme Unction are: 1st, to comfort us in the pains
+of sickness and to strengthen us against temptation; 2d, to remit venial
+sins and to cleanse our soul from the remains of sin; 3d, to restore us
+to health, when God sees fit.
+
+278. Q. What is the Sacrament of Holy Orders?
+A. Holy Orders is a Sacrament by which bishops, priests, and other
+ministers of the Church are ordained and receive the power and grace to
+perform their sacred duties.
+
+
+
+LESSON TWENTY-SECOND
+ON MATRIMONY
+
+
+282. Q. What is the Sacrament of Matrimony?
+A. The Sacrament of Matrimony is the Sacrament which unites a Christian
+man and woman in lawful marriage.
+
+285. Q. Which are the effects of the Sacrament of Matrimony?
+A. The effects of the Sacrament of Matrimony are: 1st, to sanctify the
+love of husband and wife; 2d, to give them grace to bear with each
+other's weaknesses; 3d, to enable them to bring up their children in the
+fear and love of God.
+
+286. Q. To receive the Sacrament of matrimony worthily is it necessary
+to be in the state of grace?
+A. To receive the Sacrament of Matrimony worthily it is necessary to be
+in the state of grace, and it is necessary also to comply with the laws
+of the Church.
+
+
+
+LESSON TWENTY-THIRD
+ON THE SACRAMENTALS
+
+
+292. Q. What is a sacramental?
+A. A sacramental is anything set apart or blessed by the Church to
+excite good thoughts and to increase devotion, and through these
+movements of the heart to remit venial sin.
+
+294. Q. Which is the chief sacramental used in the Church?
+A. The chief sacramental used in the Church is the sign of the cross.
+
+295. Q. How do we make the sign of the cross?
+A. We make the sign of the cross by putting the right hand to the
+forehead, then on the breast, and then to the left and right shoulders,
+saying, In the name of the Father, and of the Son, and of the Holy
+Ghost. Amen.
+
+296. Q. Why do we make the sign of the cross?
+A. We make the sign of the cross to show that we are Christians and to
+profess our belief in the chief mysteries of our religion.
+
+300. Q. What other sacramental is in very frequent use?
+A. Another sacramental in very frequent use is holy water.
+
+301. Q. What is holy water?
+A. Holy water is water blessed by the priest with solemn prayer to beg
+God's blessing on those who use it, and protection from the powers of
+darkness.
+
+302. Q. Are there other sacramentals besides the sign of the cross and
+holy water?
+A. Besides the sign of the cross and holy water there are many other
+sacramentals, such as blessed candles, ashes, palms, crucifixes, images
+of the Blessed Virgin and of the saints, rosaries and scapulars.
+
+
+
+LESSON TWENTY-FOURTH
+ON PRAYER
+
+
+303. Q. Is there any other means of obtaining God's grace than the
+Sacraments?
+A. There is another means of obtaining God's grace, and it is prayer.
+
+304. Q. What is prayer?
+A. Prayer is the lifting up of our minds and hearts to God to adore Him,
+to thank Him for His benefits, to ask His forgiveness, and to beg of Him
+all the graces we need, whether for soul or body.
+
+305. Q. Is prayer necessary to salvation?
+A. Prayer is necessary to salvation, and without it no one having the
+use of reason can be saved.
+
+306. Q. At what particular times should we pray?
+A. We should pray particularly on Sundays and holydays, every morning
+and night, in all dangers, temptations, and afflictions.
+
+308. Q. Which are the prayers most recommended to us?
+A. The prayers most recommended to us are the Lord's Prayer, the Hail
+Mary, the Apostles' Creed, the Confiteor, and the Acts of Faith, Hope,
+Love and Contrition.
+
+309. Q. Are prayers said with distractions of any avail?
+A. Prayers said with wilful distractions are of no avail.
+
+
+
+LESSON TWENTY-FIFTH
+ON THE COMMANDMENTS OF GOD
+
+
+310. Q. Is it enough to belong to God's Church in order to be saved?
+A. It is not enough to belong to the Church in order to be saved, but we
+must also keep the Commandments of God and of the Church.
+
+313. Q. Which are the Commandments of God?
+A. The Commandments of God are these ten:
+
+ 1. I am the Lord thy God. Thou shalt not have strange gods before Me.
+ 2. Thou shalt not take the name of the Lord thy God in vain.
+ 3. Remember thou keep holy the Sabbath day.
+ 4. Honor thy father and thy mother.
+ 5. Thou shalt not kill.
+ 6. Thou shalt not commit adultery.
+ 7. Thou shalt not steal.
+ 8. Thou shalt not bear false witness against thy neighbor.
+ 9. Thou shalt not covet thy neighbor's wife.
+10. Thou shalt not covet thy neighbor's goods.
+
+
+
+LESSON TWENTY-SIXTH
+ON THE FIRST COMMANDMENT
+
+
+315. Q. What is the first Commandment?
+A. The first Commandment is: I am the Lord thy God: thou shalt not have
+strange gods before Me.
+
+317. Q. How do we adore God?
+A. We adore God by faith, hope, and love, by prayer and sacrifice.
+
+318. Q. How may the first Commandment be broken?
+A. The first Commandment may be broken by giving to a creature the honor
+which belongs to God alone; by false worship; and by attributing to a
+creature a perfection which belongs to God alone.
+
+320. Q. Are sins against faith, hope, and charity also sins against the
+first Commandment?
+A. Sins against faith, hope, and charity are also sins against the first
+Commandment.
+
+321. Q. How does a person sin against faith?
+A. A person sins against faith: 1st, by not trying to know what God has
+taught; 2d, by refusing to believe all that God has taught; 3d, by
+neglecting to profess his belief in what God has taught.
+
+326. Q. Are we obliged to make open profession of our faith?
+A. We are obliged to make open profession of our faith as often as God's
+honor, our neighbor's spiritual good, or our own requires it.
+
+327. Q. Which are the sins against hope?
+A. The sins against hope are presumption and despair.
+
+328. Q. What is presumption?
+A. Presumption is a rash expectation of salvation without making proper
+use of the necessary means to obtain it.
+
+329. Q. What is despair?
+A. Despair is the loss of hope in God's mercy.
+
+
+
+LESSON TWENTY-SEVENTH
+THE FIRST COMMANDMENT--ON THE HONOR AND INVOCATION OF SAINTS
+
+
+331. Q. Does the first Commandment forbid the honoring of the saints?
+A. The first Commandment does not forbid the honoring of the saints, but
+rather approves of it, because by honoring the saints, who are the
+chosen friends of God, we honor God Himself.
+
+332. Q. Does the first Commandment forbid us to pray to the saints?
+A. The first Commandment does not forbid us to pray to the saints.
+
+333. Q. What do we mean by praying to the saints?
+A. By praying to the saints we mean the asking of their help and
+prayers.
+
+340. Q. Does the first Commandment forbid us to honor relics?
+A. The first Commandment does not forbid us to honor relics, because
+relics are the bodies of the saints or objects directly connected with
+them or with our Lord.
+
+341. Q. Does the first Commandment forbid the making of images?
+A. The first Commandment does forbid the making of images if they are
+made to be adored as gods, but it does not forbid the making of them to
+put us in mind of Jesus Christ, His Blessed Mother, and the saints.
+
+342. Q. Is it right to show respect to the pictures and images of Christ
+and His saints?
+A. It is right to show respect to the pictures and images of Christ and
+His saints, because they are the representations and memorials of them.
+
+343. Q. Is it allowed to pray to the crucifix or to the images and
+relics of the saints?
+A. It is not allowed to pray to the crucifix or images and relics of the
+saints, for they have no life, nor power to help us, nor sense to hear
+us.
+
+344. Q. Why do we pray before the crucifix and the images and relics of
+the saints?
+A. We pray before the crucifix and images and relics of the saints
+because they enliven our devotion by exciting pious affections and
+desires, and by reminding us of Christ and of the saints, that we may
+imitate their virtues.
+
+
+
+LESSON TWENTY-EIGHTH
+FROM THE SECOND TO THE FOURTH COMMANDMENT
+
+
+345. Q. What is the second Commandment?
+A. The second Commandment is: Thou shalt not take the name of the Lord
+thy God in vain.
+
+346. Q. What are we commanded by the second Commandment?
+A. We are commanded by the second Commandment to speak with reverence of
+God and of the saints, and of all holy things, and to keep our lawful
+oaths and vows.
+
+347. Q. What is an oath?
+A. An oath is the calling upon God to witness the truth of what we say.
+
+350. Q. What is a vow?
+A. A vow is a deliberate promise made to God to do something that is
+pleasing to Him.
+
+351. Q. Is it a sin not to fulfill our vows?
+A. Not to fulfill our vows is a sin, mortal or venial, according to the
+nature of the vow and the intention we had in making it.
+
+352. Q. What is forbidden by the second Commandment?
+A. The second Commandment forbids all false, rash, unjust, and
+unnecessary oaths, blasphemy, cursing, and profane words.
+
+353. Q. What is the third Commandment?
+A. The third Commandment is: Remember thou keep holy the Sabbath day.
+
+355. Q. How are we to worship God on Sundays and holydays of obligation?
+A. We are to worship God on Sundays and holydays of obligation by
+hearing Mass, by prayer, and by other good works.
+
+358. Q. What is forbidden by the third Commandment?
+A. The third Commandment forbids all unnecessary servile work and
+whatever else may hinder the due observance of the Lord's day.
+
+359. Q. What are servile works?
+A. Servile works are those which require labor rather of body than of
+mind.
+
+360. Q. Are servile works on Sunday ever lawful?
+A. Servile works are lawful on Sunday when the honor of God, the good of
+our neighbor, or necessity requires them.
+
+
+
+LESSON TWENTY-NINTH
+FROM THE FOURTH TO THE SEVENTH COMMANDMENT
+
+
+361. Q. What is the fourth Commandment?
+A. The fourth Commandment is: Honor thy father and thy mother.
+
+362. Q. What are we commanded by the fourth Commandment?
+A. We are commanded by the fourth Commandment to honor, love, and obey
+our parents in all that is not sin.
+
+363. Q. Are we bound to honor and obey others than our parents?
+A. We are also bound to honor and obey our bishops, pastors,
+magistrates, teachers, and other lawful superiors.
+
+365. Q. What is forbidden by the fourth Commandment?
+A. The fourth Commandment forbids all disobedience, contempt, and
+stubbornness towards our parents or lawful superiors.
+
+366. Q. What is the fifth Commandment?
+A. The fifth Commandment is: Thou shalt not kill.
+
+367. Q. What are we commanded by the fifth Commandment?
+A. We are commanded by the fifth Commandment to live in peace and union
+with our neighbor, to respect his rights, to seek his spiritual and
+bodily welfare, and to take proper care of our own life and health.
+
+368. Q. What is forbidden by the fifth Commandment?
+A. The fifth Commandment forbids all wilful murder, fighting, anger,
+hatred, revenge, and bad example.
+
+369. Q. What is the sixth Commandment?
+A. The sixth Commandment is: Thou shalt not commit adultery.
+
+370. Q. What are we commanded by the sixth Commandment?
+A. We are commanded by the sixth Commandment to be pure in thought and
+modest in all our looks, words, and actions.
+
+371. Q. What is forbidden by the sixth Commandment?
+A. The sixth commandment forbids all unchaste freedom with another's
+wife or husband; also all immodesty with ourselves or others in looks,
+dress, words, or actions.
+
+372. Q. Does the sixth Commandment forbid the reading of bad and
+immodest books and newspapers?
+A. The sixth Commandment does forbid the reading of bad and immodest
+books and newspapers.
+
+
+
+LESSON THIRTIETH
+FROM THE SEVENTH TO THE END OF THE TENTH COMMANDMENT
+
+
+373. Q. What is the seventh Commandment?
+A. The seventh Commandment is: Thou shalt not steal.
+
+374. Q. What are we commanded by the seventh Commandment?
+A. By the seventh Commandment we are commanded to give to all men what
+belongs to them and to respect their property.
+
+375. Q. What is forbidden by the seventh Commandment?
+A. The seventh Commandment forbids all unjust taking or keeping what
+belongs to another.
+
+376. Q. Are we bound to restore ill-gotten goods?
+A. We are bound to restore ill-gotten goods, or the value of them, as
+far as we are able; otherwise we cannot be forgiven.
+
+377. Q. Are we obliged to repair the damage we have unjustly caused?
+A. We are bound to repair the damage we have unjustly caused.
+
+378. Q. What is the eighth Commandment?
+A. The eighth Commandment is: Thou shalt not bear false witness against
+thy neighbor.
+
+379. Q. What are we commanded by the eighth Commandment?
+A. We are commanded by the eighth Commandment to speak the truth in all
+things, and to be careful of the honor and reputation of every one.
+
+380. Q. What is forbidden by the eighth Commandment?
+A. The eighth Commandment forbids all rash judgments, backbiting,
+slanders, and lies.
+
+382. Q. What is the ninth Commandment?
+A. The ninth Commandment is: Thou shalt not covet thy neighbor's wife.
+
+383. Q. What are we commanded by the ninth Commandment?
+A. We are commanded by the ninth Commandment to keep ourselves pure in
+thought and desire.
+
+384. Q. What is forbidden by the ninth Commandment?
+A. The ninth Commandment forbids unchaste thoughts, desires of another's
+wife or husband, and all other unlawful impure thoughts and desires.
+
+386. Q. What is the tenth Commandment?
+A. The tenth Commandment is: Thou shalt not covet thy neighbor's goods.
+
+387. Q. What are we commanded by the tenth Commandment?
+A. By the tenth Commandment we are commanded to be content with what we
+have, and to rejoice in our neighbor's welfare.
+
+388. Q. What is forbidden by the tenth Commandment?
+A. The tenth Commandment forbids all desires to take or keep wrongfully
+what belongs to another.
+
+
+
+LESSON THIRTY-FIRST
+ON THE FIRST AND SECOND COMMANDMENTS OF THE CHURCH
+
+
+389. Q. Which are the chief commandments of the Church?
+A. The chief commandments of the Church are six:
+
+1. To hear Mass on Sundays and holydays of obligation.
+2. To fast and abstain on the days appointed.
+3. To confess at least once a year.
+4. To receive the Holy Eucharist during the Easter time.
+5. To contribute to the support of our pastors.
+6. Not to marry persons who are not Catholics, or who are related to us
+   within the third degree of kindred, nor privately without witnesses,
+   nor to solemnize marriage at forbidden times.
+
+390. Q. Is it a mortal sin not to hear Mass on a Sunday or a holyday of
+obligation?
+A. It is a mortal sin not to hear Mass on a Sunday or a holyday of
+obligation unless we are excused for a serious reason. They also commit
+a mortal sin who, having others under their charge, hinder them from
+hearing Mass, without a sufficient reason.
+
+393. Q. What do you mean by fast-days?
+A. By fast-days I mean days on which we are allowed but one full meal.
+
+394. Q. What do you mean by days of abstinence?
+A. By days of abstinence, I mean days on which we are forbidden to eat
+flesh-meat, but are allowed the usual number of meals.
+
+395. Q. Why does the Church command us to fast and abstain?
+A. The Church commands us to fast and abstain in order that we may
+mortify our passions and satisfy for our sins.
+
+
+
+LESSON THIRTY-SECOND
+ON THE THIRD, FOURTH, FIFTH AND SIXTH COMMANDMENTS OF THE CHURCH
+
+
+397. Q. What is meant by the command of confessing at least once a year?
+A. By the command of confessing at least once a year is meant that we
+are obliged, under pain of mortal sin, to go to Confession within the
+year.
+
+400. Q. What sin does he commit who neglects to receive Communion during
+the Easter time?
+A. He who neglects to receive Communion during the Easter time commits a
+mortal sin.
+
+401. Q. What is the Easter time?
+A. The Easter time is, in this country, the time between the first
+Sunday of Lent and Trinity Sunday.
+
+402. Q. Are we obliged to contribute to the support of our pastors?
+A. We are obliged to contribute to the support of our pastors, and to
+bear our share in the expenses of the Church and school.
+
+
+
+LESSON THIRTY-THIRD
+ON THE LAST JUDGMENT AND THE RESURRECTION, HELL, PURGATORY, AND HEAVEN
+
+
+408. Q. When will Christ judge us?
+A. Christ will judge us immediately after our death, and on the last
+day.
+
+409. Q. What is the judgment called which we have to undergo immediately
+after death?
+A. The judgment we have to undergo immediately after death is called the
+Particular Judgment.
+
+410. Q. What is the judgment called which all men have to undergo on the
+last day?
+A. The judgment which all men have to undergo on the last day is called
+the General Judgment.
+
+412. Q. What are the rewards or punishments appointed for men's souls
+after the Particular Judgment?
+A. The rewards or punishments appointed for men's souls after the
+Particular Judgment are Heaven, Purgatory, and Hell.
+
+413. Q. What is Hell?
+A. Hell is a state to which the wicked are condemned, and in which they
+are deprived of the sight of God for all eternity, and are in dreadful
+torments.
+
+414. Q. What is Purgatory?
+A. Purgatory is a state in which those suffer for a time who die guilty
+of venial sins, or without having satisfied for the punishment due to
+their sins.
+
+417. Q. Will our bodies share in the reward or punishment of our souls?
+A. Our bodies will share in the reward or punishment of our souls,
+because through the resurrection they will again be united to them.
+
+420. Q. What is Heaven?
+A. Heaven is the state of everlasting life in which we see God face to
+face, are made like unto Him in glory, and enjoy eternal happiness.
+
+
+STOP_PARSING
+
+
+MORNING PRAYERS
+
+
+As soon as you awake, think of God. Make the Sign of the Cross and say:
+
++ In the name of the Father, and of the Son, and of the Holy Ghost.
+Amen.
+
+Then dress quickly and kneel down. Now say the Our Father, the Hail
+Mary, the Apostles' Creed, the Confiteor and the Acts of Faith, Hope,
+Love and Contrition which you have probably memorized. If you do not
+know them by heart you will find them on pages 2-4.
+
+Then if you have time also say the following prayers:
+
+TO THE BLESSED VIRGIN.
+My Lady, and my Mother, remember I am thine; protect and defend me as
+thy property and possession.
+
+TO SAINT JOSEPH.
+Saint Joseph, model and patron of those who love the Sacred Heart of
+Jesus, pray for us.
+
+TO THE GUARDIAN ANGEL.
+Angel of God, my guardian dear,
+To whom His love commits me here,
+Ever this day be at my side,
+To light and guard, to rule and guide. Amen.
+
+God bless Papa and Mamma. God bless Brothers and Sisters, and all my
+friends. God bless me, and make me a good child.
+
+FOR THE FAITHFUL DEPARTED.
+Eternal rest give unto them, O Lord. And let perpetual light shine upon
+them. May they rest in peace. Amen.
+
+Glory be to the Father, and to the Son, and to the Holy Ghost. As it was
+in the beginning, is now, and ever shall be, world without end. Amen.
+
+Make the Sign of the Cross.
+
+
+
+EVENING PRAYERS
+
+
+Never go to bed without thanking God for all the benefits you have
+received during the day and during your whole life. Kneel down. Make the
+Sign of the Cross. Then say the Our Father, Hail Mary, the Apostles'
+Creed, the Confiteor, and Glory be.
+
+Now think how you have acted during the day. Are there any big sins on
+your soul? Any little sins? Try to tell Jesus how sorry you are for all
+your sins, and say the Act of Contrition (page 4).
+
+Jesus, Mary, Joseph, I give you my heart and my soul.
+Jesus, Mary, Joseph, assist me in my last agony.
+Jesus, Mary, Joseph, may I breathe forth my soul in peace with you.
+O my God, bless my father, mother, and all my relatives and friends.
+May the souls of the faithful departed, through the mercy of God, rest
+in peace. Amen.
+
+Bless yourself with holy water.
+
++ In the name of the Father, and of the Son, and of the Holy Ghost.
+Amen.
+
+
+
+PRAYERS FOR MASS
+
+
+[The Mass prayers are an arrangement of those contained in Father Finn's
+"Prayer Book for Catholic Youth" (also known as Father Finn's Boys' and
+Girls' Prayer Book). They follow closely in simplified language the
+spirit and liturgy of the "Ordinary of the Mass," so that children will
+become readily accustomed to using the Church's own prayers and follow
+the priest at the altar. The rubrics when to sit, stand or kneel at Low
+Mass are given.
+
+If it is found desirable to have the children recite prayers aloud and
+in unison at Mass, certain parts suitable for this purpose are marked
+with an asterisk (*).]
+
+
+Remember that the church is the house of God, where the living God
+dwells. And where God is, His holy angels too are present. In church,
+therefore, be reverent and modest in your behavior, and always be in
+time. When you enter, bless yourself with holy water and go quietly to
+your seat, genuflect on your right knee and enter the pew.
+
+
+PRAYER BEFORE MASS
+
+O my God, I am only a child; help me to be attentive, and to pray with
+all my heart during this holy Mass.
+
+The priest comes out to begin Mass.
+
+Stand
+
+The priest carries in his hands the chalice, covered with a cloth. The
+priest goes up to the middle of the altar, and sets down the chalice.
+Then he goes to the right side and opens the book.
+
+After that he comes down to the foot of the altar, and makes the Sign of
+the Cross.
+
+
+THE MASS OF THE CATECHUMENS
+(From the Beginning to the Offertory)
+
+Kneel
+
+*In the name of the Father, and of the Son, and of the Holy Ghost. Amen.
+*I will go in to the altar of God, to God Who gives joy to my youth.
+*Judge me, O God. Keep me safe from all evil.
+Glory be to the Father, and to the Son and to the Holy Ghost.
+As it was in the beginning, is now and ever shall be, world without end.
+Amen.
+I will go in to the altar of God.
+To God Who gives joy to my youth.
+
+Here the priest makes the Sign of the Cross.
+
+Our help is in the name of the Lord.
+Who made heaven and earth.
+
+The priest, bowing down, says the Confiteor. Then the altar-boys bow and
+say it after him. Read it as on p. 2.
+
+The priest goes up to the altar and says:
+
+O Lord, we beg You, by the goodness of Your saints whose relics are
+here, and of all Your saints, to forgive us all our sins.
+
+
+THE INTROIT AND KYRIE ELEISON
+
+The priest goes to the right side of the altar and reads from the book.
+Then going back to the middle of the altar he says the Kyrie Eleison.
+
+
+THE GLORIA
+
+Glory be to God on high, and on earth peace to men of good will. We
+praise You. We bless You. We glorify You. We give You thanks for Your
+great glory, O Lord God, heavenly King, God the Father almighty. O Lord
+God, Son of the Father, Who take away the sins of the world, have mercy
+on us. You only, O Jesus Christ, with the Holy Ghost, are most high in
+the Glory of God the Father. Amen.
+
+The priest turns to the people and says:
+
+The Lord be with you.
+And with your spirit.
+
+
+THE COLLECT
+
+The priest goes to the right side of the altar and reads from the book.
+
+*Let us pray: Let Your grace and pity guide our hearts, we beg You, O
+Lord. For without You we cannot please You. Through Our Lord, Jesus
+Christ, Your Son, Who lives and reigns with You in the unity of the Holy
+Ghost, world without end. Amen.
+
+
+THE EPISTLE
+
+The Epistle is a letter. Most of these letters were written by Saint
+Paul. The priest now reads one of these. You may read the following:
+
+Dear children: Be happy, be good, be brave; agree with one another, and
+be at peace. The grace of Our Lord Jesus Christ, God's love, and the
+wisdom of the Holy Ghost be with you all. Amen.
+
+Thanks be to God.
+
+The altar-boy carries the book to the left side of the altar. The priest
+bows at the middle of the altar and says a prayer.
+
+
+THE GOSPEL
+
+The priest goes to the left and reads from the book.
+
+Stand
+
+While Jesus was speaking to the people, mothers brought their children
+to Him, that He might bless them. The disciples told them not to bother
+Jesus. But Jesus said, "Suffer the little children to come to Me and
+forbid them not. For of such is the kingdom of heaven." And Jesus
+blessed the children.
+
+Praise be to You, O Christ.
+
+Sit
+
+The priest now turns back to the middle of the altar and says the Creed.
+You also say it (see page 2).
+
+
+THE MASS OF THE FAITHFUL
+(From the Offertory to the Communion)
+
+
+THE OFFERING OF THE HOST
+
+The priest takes the cloth off the chalice. Then he holds up a small
+gold plate on which is the bread, called the host.
+
+*Take, O holy Father, almighty and eternal God, this spotless host which
+I, Your unworthy servant, offer to You for my many sins and for all who
+serve You, living and dead. May it help them and me to gain eternal
+life.
+
+The priest goes to the right side of the altar. He pours wine and water
+into the chalice. Then the priest goes back to the middle of the altar
+and raises the chalice.
+
+
+THE OFFERING OF THE CHALICE
+
+*We offer You, O Lord, this chalice. May it help us and all the world to
+gain eternal life. Amen.
+
+The priest goes to the right side of the altar to wash his hands.
+
+Returning to the middle of the altar, the priest bows down and says some
+prayers. Then he turns to the people and says the Orate Fratres.
+
+Now the priest prays in a low voice and then in a louder voice he says
+the Preface:
+
+Truly, it is right and just that we should at all times and in all
+places give thanks to You, O holy Lord, Father almighty, Who, with Your
+only Son and the Holy Ghost are one God, one Lord. All the angels daily
+praise You, singing with one voice:
+
+
+*THE SANCTUS
+
+Holy, holy, holy Lord, God of hosts.
+Heaven and earth are full of Your glory.
+Hosanna in the highest.
+
+The bell is rung three times.
+
+Kneel
+
+
+THE CANON
+
+[Note,--By a Decree of the Church (Aug. 4, 1922), the prayers during the
+Canon, i.e. from the Sanctus to the Pater Noster, must be said in
+silence.]
+
+The priest bows low and kisses the altar.
+
+O most merciful Father, we pray You, through Jesus Christ, Your Son, Our
+Lord, to take and bless these gifts. We offer them to You for Your holy
+Catholic Church, for our Pope and Bishop and for all those in the
+Catholic Faith.
+
+
+PRAYER FOR THE LIVING
+
+Be mindful, O Lord, of Your servants (name those for whom you wish to
+pray especially), and all who are now hearing this Mass. Hear, O Lord,
+the prayers they are offering for themselves, their friends and their
+families.
+
+
+THE CONSECRATION OF THE HOST
+
+The priest now bends low over the host and says:
+
+    THIS IS MY BODY
+
+At these words, the bread is changed into the body of Our Lord. The bell
+rings. The priest kneels and then raises the Sacred Body of Our Lord.
+Now look at the Sacred Host and say: My Lord and my God. Then bow your
+head as the priest kneels again.
+
+
+THE CONSECRATION OF THE WINE
+
+The priest bends over the chalice and says:
+
+    THIS IS THE CHALICE OF MY BLOOD
+
+At these words, the wine becomes the Precious Blood of Our Lord. The
+bell rings. The priest kneels and then raises the chalice. Now the
+priest continues to pray silently. Look at the chalice and say: Jesus in
+the Blessed Sacrament, have mercy on us.
+
+The priest kneels. The bell rings again. The priest prays silently.
+
+
+PRAYER FOR THE DEAD
+
+Remember also, O Lord, Your servants (here name dead relatives and
+friends) who have gone before us with the sign of faith and sleep the
+sleep of peace.
+
+Now the priest says the "Pater Noster." Say the "Our Father."
+
+Soon after the priest strikes his breast and says the "Agnus Dei."
+
+
+THE PRIEST'S COMMUNION
+
+The priest after saying some prayers silently, takes the Sacred Host and
+paten in his left hand and striking his breast with the right hand says
+(the bell rings three times):
+
+*O Lord, I am not worthy that You should enter under my roof. Say but
+the word and my soul shall be healed.
+
+The priest bows down and receives the Body of Our Lord. He remains in
+prayer for a short time. Then he uncovers the chalice and drinks the
+Sacred Blood of Our Lord.
+
+
+THE COMMUNION OF THE PEOPLE
+
+The priest now opens the tabernacle and takes out the Blessed Sacrament
+to give holy communion to the people. Turning to the people and holding
+the ciborium in his left hand, he lifts up a Sacred Host to the people
+in his right hand. Now say with the priest three times:
+
+"Lord, I am not worthy that You should enter my soul; say but the word
+and my soul shall be healed."
+
+
+AFTER THE COMMUNION
+
+Having replaced the Blessed Sacrament in the tabernacle, the priest
+after taking water and wine, covers the chalice and goes to the right
+side of the altar to read from the book. Then going back to the middle
+he turns to the people and says:
+
+The Lord be with you.
+And with your spirit.
+
+Then the priest again goes to the right side of the altar and reads:
+
+
+THE PRAYERS AFTER COMMUNION
+
+*Let us pray: We have been filled with Your gifts, O Lord. Grant that
+they may make us clean and strong. May the gift of this divine Sacrament
+keep us pure, O Lord. Through the help of the Blessed Virgin, of St.
+Joseph, of Sts. Peter and Paul and all the saints, may it free us from
+all evil.
+
+The priest goes back to the middle of the altar and turning to the
+people says:
+
+The Lord be with you.
+And with your spirit.
+
+Go, the Mass is ended.
+Thanks be to God.
+
+
+THE BLESSING
+
+The priest bows down and says a prayer. Then turning to the people he
+blesses them saying:
+
+May almighty God, the Father, Son, and Holy Ghost, bless you. Amen.
+
+The priest goes to the left side of the altar.
+
+Stand
+
+The Lord be with you.
+And with your spirit.
+
+
+THE LAST GOSPEL
+
+The priest makes a cross on forehead, lips, and breast, and says the
+Gospel of St. John.
+
+Remain standing until the priest has left the sanctuary or kneels down
+to say the prayers after Mass.
+
+
+
+THE RIGHT MANNER OF CONFESSING
+
+
+[From Father Finn's Prayer Book for Catholic Youth.]
+
+
+PRAYER BEFORE EXAMINING YOUR CONSCIENCE
+
+O Holy Spirit, help me to know all my sins. Help me to remember that
+Jesus died for me. Help me to make a good confession and I promise that
+I will try never to sin again.
+
+Now think of your sins.
+
+
+PRAYER BEFORE ENTERING THE CONFESSIONAL
+
+O God, I am very sorry for all my sins. I promise that I will try to be
+good and never again to hurt You by sin. Dear Jesus, help me. Mother of
+God, pray that I may please Your Son by true sorrow for my sins.
+
+When your turn comes, go into the confession box. Make the Sign of the
+Cross and wait till the priest opens the little door. Say what you have
+been taught to say. Or you may say this:
+
+Bless me, Father, for I have sinned. It is (say how long) since my last
+confession. Since then I have committed these sins.
+
+Now tell all your sins and how many times you committed each. If there
+is something you don't know how to tell, just say, "Please help me,
+Father," and the priest will help you. After you have told all your
+sins, say what you have been taught to say. Or you may say:
+
+That is all, Father.
+
+In case you have no big sins to confess, it is well to end your
+confession with: "In my past life I sinned through anger or impurity"
+(or some sin that you know you did and that you are sorry for).
+
+The priest tells you what prayers to say for a penance. Then he tells
+you to say the Act of Contrition. When you come out, kneel down near the
+altar. Say your penance at once. Then thank God for being so good to
+you.
+
+
+
+COMMUNION PRAYERS
+
+
+ACTS BEFORE COMMUNION
+
+Act of Faith. Jesus Christ, my Sovereign Lord, I firmly believe that
+Thou art really present in the Holy Eucharist, and that it is Thy body,
+Thy blood, Thy soul, and Thy divinity that I shall receive in that
+Adorable Sacrament.
+
+Act of Hope. Thou hast said, O my God, that those hoping in Thee shall
+never be confounded. I place all my confidence in Thy promises, and I
+hope that, having nourished myself with Thy body on earth, I shall have
+the happiness of seeing and possessing Thee eternally in heaven.
+
+Act of Love. O my divine Jesus, Who hast so loved me as to nourish me
+with Thy adorable flesh, I love Thee with all my heart and above all
+things; I wish to live and die in Thy holy love.
+
+Act of Humility. My Saviour and my God, Thou art all sanctity. I am not
+worthy that Thou shouldst enter my heart; yet, speak but the word and my
+soul shall be healed.
+
+Act of Desire. My soul desires Thee, O my God! Thou art its joy and
+happiness. Come, O divine Jesus, come into my heart; it desires ardently
+to receive Thee.
+
+
+ACTS AFTER COMMUNION
+
+Act of Adoration. I adore Thee, O Jesus, as the Lamb of God immolated
+for the salvation of mankind. I join in the profound adoration which the
+angels and saints pay to Thee in heaven.
+
+Act of Thanksgiving. Lord, Thou hast looked on my unworthiness. I was
+sick, and Thou hast healed me. I was poor, and Thou hast bestowed upon
+me Thy numberless benefits. How shall I be able to thank Thee, O my
+Lord, for all Thy favors? I will invoke Thy holy name, and eternally
+sing Thy mercies.
+
+Act of Offering. What can I offer Thee, O my God, for the grace of
+having given Thyself to me? I consecrate to Thy glory my body, my soul,
+and all that I possess! Dispose of me according to Thy holy will.
+
+Act of Petition. My divine Redeemer, Thou hast taken possession of me.
+Do not let the enemy of my salvation ravish the precious treasure I bear
+in my heart. Preserve me from all sin, and defend me against temptation,
+that I may persevere until death in the practice of Thy holy law. Amen.
+
+
+
+THE ROSARY OF THE BLESSED VIRGIN
+
+
+THE FIVE JOYFUL MYSTERIES
+(Assigned for Mondays and Thursdays throughout the year, the Sundays of
+Advent, and after Epiphany until Lent.)
+
+First Mystery. The Annunciation.
+Second Mystery. The Visitation.
+Third Mystery. The Nativity.
+Fourth Mystery. The Presentation.
+Fifth Mystery. The Finding of the Child Jesus in the Temple.
+
+
+THE FIVE SORROWFUL MYSTERIES
+(For Tuesdays and Fridays throughout the year, and Sundays in Lent.)
+
+First Mystery. The Prayer and Bloody Sweat of our blessed Saviour in the
+Garden.
+Second Mystery. The Scourging of Jesus at the Pillar.
+Third Mystery. The Crowning of Jesus with Thorns.
+Fourth Mystery. Jesus Carrying His Cross.
+Fifth Mystery. The Crucifixion.
+
+
+THE FIVE GLORIOUS MYSTERIES
+(For Wednesdays and Saturdays throughout the year, and Sundays after
+Easter until after Advent.)
+
+First Mystery. The Resurrection.
+Second Mystery. The Ascension.
+Third Mystery. The Descent of the Holy Ghost.
+Fourth Mystery. The Assumption.
+Fifth Mystery. The Crowning of the Blessed Virgin.
+
+
+
+THE STATIONS OF THE CROSS
+
+
+A plenary indulgence can be gained each time one makes the Stations,
+subject to the usual conditions.
+
+To make the Stations and gain the indulgences, no special prayer is
+required. We have but to begin at the first Station and go around to the
+last, thinking devoutly of the Passion and Death of Christ.
+
+
+
+HYMNS
+
+
+Come, Holy Ghost, Creator Blest
+
+1. Come, Holy Ghost, Creator blest,
+And in our hearts take up Thy rest;
+Come with Thy grace and heavenly aid
+|| To fill the hearts which Thou hast made. ||
+
+2. O Comforter, to Thee we cry,
+Thou heavenly Gift of God most high,
+Thou Fount of life and Fire of love,
+|| And sweet Anointing from above. ||
+
+3. Praise we the Father and the Son,
+And Holy Spirit with them One;
+And may the Son on us bestow
+|| The gifts that from the Spirit flow. ||
+
+
+O Salutaris
+
+1. O Salutaris Hostia!
+  Quae coeli pandis ostium:
+Bella premunt hostilia,
+  Da robur, fer auxilium.
+
+2. Uni trinoque Domino
+  Sit sempiterna gloria,
+Qui vitam sine termino
+  Nobis donet in Patria. Amen.
+
+
+Tantum Ergo
+
+1. Tantum ergo Sacramentum
+  Veneremur cernui;
+Et antiquum documentum
+  Novo cedat ritui;
+Praestet fides supplementum
+  Sensuum defectui.
+
+2. Genitori, Genitoque
+  Laus et jubilatio,
+Salus, honor, virtus quoque
+  Sit et benedictio;
+Procedenti ab utroque
+  Compar sit laudatio. Amen.
+
+V. Panem de coelo praestitisti eis,
+R. Omne delectamentum in se habentem.
+
+
+Adeste Fideles
+
+1. Adeste, fideles,
+Laeti triumphantes;
+Venite, venite in Bethlehem;
+Natum videte
+Regem Angelorum,
+Venite, adoremus,
+Venite, adoremus,
+Venite, adoremus Dominum.
+
+2. Deum de Deo,
+Lumen de lumine,
+Gestant puellae viscera;
+Deum verum,
+Genitum non factum,
+Venite, etc.
+
+3. Cantet nunc Io!
+Chorus Angelorum;
+Cantet nunc aula coelestium.
+Gloria
+In excelsis Deo,
+Venite, etc.
+
+4. Ergo, qui natus
+Die hodierna,
+Jesu! tibi sit gloria,
+Patris aeterni
+Verbum caro factum,
+Venite, etc.
+
+
+Jesus, My Lord, My God
+(REV. F. W. FABER)
+
+1. Jesus, my Lord, my God, my all!
+  How can I love Thee as I ought?
+And how revere this wondrous gift,
+  So far surpassing hope or thought?
+
+CHORUS.--Sweet Sacrament! we Thee adore,
+Oh, make us love Thee more and more,
+Oh, make us love Thee more and more.
+
+2. Had I but Mary's sinless heart
+  To love Thee with, my dearest King,
+Oh, with what bursts of fervent praise
+  Thy goodness, Jesus, would I sing!
+
+
+To Jesus' Heart All Burning
+(REV. A. J. CHRISTIE, S.J.)
+
+1. To Jesus' Heart, all burning
+  With fervent love for men,
+My heart with fondest yearning
+  Shall raise the joyful strain.
+
+CHORUS.--While ages course along,
+Blest be with loudest song
+|| The Sacred Heart of Jesus
+By every heart and tongued. ||
+
+2. O Heart for me on fire
+  With love no man can speak,
+My yet untold desire
+  God gives me for Thy sake.
+
+3. Too true I have forsaken
+  Thy flock by wilful sin;
+Yet now let me be taken
+  Back to Thy fold again.
+
+
+Jesus, Gentlest Saviour
+(REV. F. W. FABER)
+
+1. Jesus, gentlest Saviour!
+  God of might and power;
+Thou Thyself art dwelling
+  In us at this hour.
+Nature cannot hold Thee,
+  Heav'n is all too strait
+For Thine endless glory,
+  And Thy royal state.
+
+2. Out beyond the shining
+  Of the farthest star,
+Thou art ever stretching
+  Infinitely far.
+Yet the hearts of children
+  Hold what worlds cannot,
+And the God of wonders
+  Loves the lowly spot.
+
+
+Jesus! Saviour of My Soul
+
+1. Jesus! Saviour of my soul,
+  Let me to Thy refuge fly,
+While the nearer waters roll,
+  While the tempest still is nigh.
+
+CHORUS.--Hide me, O my Saviour, hide
+  Till the storm of life is past;
+Safe into Thy haven guide,
+  O receive my soul at last.
+Jesus! Saviour of my soul,
+  Let me to Thy refuge fly;
+Ave, Ave, Jesus mild,
+  Deign to hear Thy lowly child.
+
+2. Other refuge have I none,
+  Hangs my helpless soul on Thee,
+Leave, oh, leave me not alone,
+  Still support and strengthen me.
+
+
+Jesus, the Very Thought of Thee
+(REV. E. CASWALL)
+
+1. Jesus, the very thought of Thee
+  With rapture fills my breast;
+But sweeter far Thy Face to see,
+  And in Thy presence rest.
+
+2. Nor voice can sing, nor heart can frame,
+  Nor can the mem'ry find
+A sweeter sound than Thy blest Name,
+  O Saviour of mankind!
+
+3. Jesus, our only joy be Thou,
+  As Thou our prize wilt be;
+O Jesus, be our glory now
+  And through eternity.
+
+
+What Happiness Can Equal Mine?
+(REV. F. W. FABER)
+
+1. What happiness can equal mine?
+  I've found the object of my love:
+My Jesus dear, my King Divine,
+  Is come to me from heav'n above;
+He chose my heart for His abode,
+  He there becomes my daily bread;
+There on me flows His healing blood;
+  There with His flesh my soul is fed.
+
+CHORUS.--What happiness can equal mine?
+  I've found the object of my love:
+My Jesus dear, my King Divine,
+  Is come to me from heav'n above.
+
+2. I am my love's, and He is mine:
+  In me He dwells, in Him I live;
+What greater treasures could I find?
+  And could, ye heavens, a greater give?
+O sacred banquet, heav'nly feast!
+  O overflowing source of grace,
+Where God the food, and man, the guest,
+  Meet and unite in sweet embrace!
+
+
+The Love of Jesus
+
+1. O the priceless love of Jesus:
+  O the strength of grace divine;
+All His gifts are showered upon me,
+  All His blessings may be mine.
+He is throned in Heavenly glory
+  Where no sin nor death can be;
+Yet He loves me in this darkness,
+  Yet He does not turn from me.
+
+2. I am blind, and poor, and wretched,
+  By temptations sorely tried;
+Yet His watchful care abounding
+  Keeps me ever at His side.
+He is God and King Eternal,
+  Higher than all height can be;
+Yet His Heart is with me always,
+  Yet He stoopeth down to me.
+
+
+Holy God, We Praise Thy Name
+(REV. C. WALWORTH)
+
+1. Holy God, we praise Thy name,
+  Lord of all, we bow before Thee!
+All on earth Thy sceptre claim,
+  All in heav'n above adore Thee.
+|| Infinite Thy vast domain,
+Everlasting is Thy name. ||
+
+2. Hark! the loud celestial hymn,
+  Angel choirs above are raising!
+Cherubim and Seraphim,
+  In unceasing chorus praising.
+|| Fill the heavens with sweet accord;
+  Holy! Holy! Holy Lord. ||
+
+
+Hail, Heavenly Queen!
+
+1. Hail, heavenly Queen! Hail, foamy ocean star!
+O be our guide, diffuse thy beams afar;
+Hail, Mother of God! above all virgins blest,
+Hail, happy gate of heav'n's eternal rest.
+
+CHORUS.--Hail foamy ocean star! Hail, heav'nly Queen!
+|| O be our guide to endless joys unseen. ||
+
+2. "Hail, full of grace," with Gabriel we repeat;
+Thee, Queen of heav'n, from him we learn to greet;
+Then give us peace which heav'n alone can give,
+And dead thro' Eve, thro' Mary let us live.
+
+
+Mother Dear, Oh, Pray for Me
+
+1. Mother dear, oh, pray for me,
+  Whilst far from heav'n and thee
+I wander in a fragile bark,
+  O'er life's tempestuous sea;
+O Virgin Mother, from thy throne,
+  So bright in bliss above,
+Protect thy child and cheer my path,
+  With thy sweet smile of love.
+
+CHORUS.--Mother dear, remember me,
+  And never cease thy care,
+Till in heaven eternally
+  Thy love and bliss I share.
+
+2. Mother dear, oh, pray for me,
+  Should pleasure's siren lay
+E'er tempt thy child to wander far
+  From virtue's path away;
+When thorns beset life's devious way,
+  And darkling waters flow,
+Then, Mary, aid thy weeping child,
+  Thyself a mother show.
+
+
+Ora Pro Me
+
+1. Ave Maria! bright and pure,
+  Hear, O hear me when I pray,
+Pains and pleasures try the pilgrim
+  On his long and dreary way.
+Fears and perils are around me,
+Ave Maria! bright and pure,
+  Ore pro me, ora pro me.
+
+2. Ave Maria! Queen of Heaven,
+  Teach, O teach me to obey,
+Lead me on, tho' fierce temptations
+  Stand and meet me in the way.
+When I fail and faint, my Mother,
+Ave Maria! bright and pure,
+  Ora pro me, ora pro me.
+
+
+I'll Sing a Hymn to Mary
+(REV. FR. WYSE)
+
+I'll sing a hymn to Mary,
+  The Mother of my God,
+The Virgin of all Virgins,
+  Of David's royal blood.
+Oh, teach me, holy Mary
+  A loving song to frame,
+When wicked men blaspheme thee
+  To love and bless thy name.
+
+When troubles dark afflict me
+  In sorrow and in care,
+Thy light doth ever guide me
+  O beauteous Morning Star.
+Lo, I'll be ever ready
+  Thy goodly help to claim,
+When wicked men blaspheme thee
+  I'll love and bless thy name.
+
+
+Daily, Daily Sing to Mary
+
+1. Daily, daily sing to Mary
+  Sing, my soul, her praises due;
+All her feasts, her actions worship,
+  With the heart's devotion true.
+Lost in wond'ring contemplation,
+  Be her majesty confess'd;
+Call her Mother, call her Virgin,
+  Happy Mother, Virgin blest.
+
+2. She is mighty to deliver;
+  Call her, trust her lovingly;
+When the tempest rages round thee,
+  She will calm the troubled sea.
+Gifts of heaven she has given,
+  Noble Lady, to our race;
+She the Queen who decks her subject,
+  With the light of God's own grace.
+
+
+Hymn to St. Joseph
+
+1. With grateful hearts we breathe to-day
+  The tender accents of our love.
+We carol forth a little lay
+  To thee, great saint in heaven above.
+
+CHORUS.--O Joseph dear, from thy bright throne,
+  Incline thine ear unto our prayer.
+And o'er us all as o'er thine own,
+  Extend thy fond paternal care,
+And o'er us all as o'er thine own,
+  Extend thy fond paternal care,
+Extend thy fond paternal care.
+
+2. More favored than earth's greatest king.
+  Thou wert the guardian of that Child,
+Around whose crib full choirs did sing,
+  With cadenced voices soft and mild.
+
+
+Dear Guardian of Mary
+(REV. F. W. FABER)
+
+1. Dear Guardian of Mary! dear nurse of her child!
+Life's ways are full weary, the desert is wild;
+Bleak sands are all round us, no home can we see;
+Sweet Spouse of our Lady! we lean upon thee.
+
+2. For thou to the pilgrim art father and guide,
+And Jesus and Mary felt safe at thy side;
+Ah! blessed Saint Joseph, how safe should I be,
+Sweet Spouse of our Lady! if thou wert with me.
+
+
+Dear Angel, Ever at My Side
+(REV. F. W. FABER)
+
+1. Dear Angel, ever at my side,
+  How loving must thou be,
+To leave thy home in heaven to guide
+  A little child like me.
+
+2. Thy beautiful and shining face
+  I see not, though so near;
+The sweetness of thy soft, low voice
+  I am too deaf to hear.
+
+
+Hymn at the Communion
+
+O Lord, I am not worthy
+  That Thou shouldst come to me,
+But speak the words of comfort,
+  My spirit healed shall be.
+
+And humbly I'll receive Thee,
+  The bridegroom of my soul,
+No more by sin to grieve Thee,
+  Or fly Thy sweet control.
+
+
+
+
+
+End of Project Gutenberg's Baltimore Catechism No. 1 (of 4), by Anonymous
+
+*** END OF THIS PROJECT GUTENBERG EBOOK BALTIMORE CATECHISM NO. 1 (OF 4) ***
+
+***** This file should be named 14551.txt or 14551.zip *****
+This and all associated files of various formats will be found in:
+        http://www.gutenberg.net/1/4/5/5/14551/
+
+Produced by Dennis McCarthy
+
+Updated editions will replace the previous one--the old editions
+will be renamed.
+
+Creating the works from public domain print editions means that no
+one owns a United States copyright in these works, so the Foundation
+(and you!) can copy and distribute it in the United States without
+permission and without paying copyright royalties.  Special rules,
+set forth in the General Terms of Use part of this license, apply to
+copying and distributing Project Gutenberg-tm electronic works to
+protect the PROJECT GUTENBERG-tm concept and trademark.  Project
+Gutenberg is a registered trademark, and may not be used if you
+charge for the eBooks, unless you receive specific permission.  If you
+do not charge anything for copies of this eBook, complying with the
+rules is very easy.  You may use this eBook for nearly any purpose
+such as creation of derivative works, reports, performances and
+research.  They may be modified and printed and given away--you may do
+practically ANYTHING with public domain eBooks.  Redistribution is
+subject to the trademark license, especially commercial
+redistribution.
+
+
+
+*** START: FULL LICENSE ***
+
+THE FULL PROJECT GUTENBERG LICENSE
+PLEASE READ THIS BEFORE YOU DISTRIBUTE OR USE THIS WORK
+
+To protect the Project Gutenberg-tm mission of promoting the free
+distribution of electronic works, by using or distributing this work
+(or any other work associated in any way with the phrase "Project
+Gutenberg"), you agree to comply with all the terms of the Full Project
+Gutenberg-tm License (available with this file or online at
+http://gutenberg.net/license).
+
+
+Section 1.  General Terms of Use and Redistributing Project Gutenberg-tm
+electronic works
+
+1.A.  By reading or using any part of this Project Gutenberg-tm
+electronic work, you indicate that you have read, understand, agree to
+and accept all the terms of this license and intellectual property
+(trademark/copyright) agreement.  If you do not agree to abide by all
+the terms of this agreement, you must cease using and return or destroy
+all copies of Project Gutenberg-tm electronic works in your possession.
+If you paid a fee for obtaining a copy of or access to a Project
+Gutenberg-tm electronic work and you do not agree to be bound by the
+terms of this agreement, you may obtain a refund from the person or
+entity to whom you paid the fee as set forth in paragraph 1.E.8.
+
+1.B.  "Project Gutenberg" is a registered trademark.  It may only be
+used on or associated in any way with an electronic work by people who
+agree to be bound by the terms of this agreement.  There are a few
+things that you can do with most Project Gutenberg-tm electronic works
+even without complying with the full terms of this agreement.  See
+paragraph 1.C below.  There are a lot of things you can do with Project
+Gutenberg-tm electronic works if you follow the terms of this agreement
+and help preserve free future access to Project Gutenberg-tm electronic
+works.  See paragraph 1.E below.
+
+1.C.  The Project Gutenberg Literary Archive Foundation ("the Foundation"
+or PGLAF), owns a compilation copyright in the collection of Project
+Gutenberg-tm electronic works.  Nearly all the individual works in the
+collection are in the public domain in the United States.  If an
+individual work is in the public domain in the United States and you are
+located in the United States, we do not claim a right to prevent you from
+copying, distributing, performing, displaying or creating derivative
+works based on the work as long as all references to Project Gutenberg
+are removed.  Of course, we hope that you will support the Project
+Gutenberg-tm mission of promoting free access to electronic works by
+freely sharing Project Gutenberg-tm works in compliance with the terms of
+this agreement for keeping the Project Gutenberg-tm name associated with
+the work.  You can easily comply with the terms of this agreement by
+keeping this work in the same format with its attached full Project
+Gutenberg-tm License when you share it without charge with others.
+
+1.D.  The copyright laws of the place where you are located also govern
+what you can do with this work.  Copyright laws in most countries are in
+a constant state of change.  If you are outside the United States, check
+the laws of your country in addition to the terms of this agreement
+before downloading, copying, displaying, performing, distributing or
+creating derivative works based on this work or any other Project
+Gutenberg-tm work.  The Foundation makes no representations concerning
+the copyright status of any work in any country outside the United
+States.
+
+1.E.  Unless you have removed all references to Project Gutenberg:
+
+1.E.1.  The following sentence, with active links to, or other immediate
+access to, the full Project Gutenberg-tm License must appear prominently
+whenever any copy of a Project Gutenberg-tm work (any work on which the
+phrase "Project Gutenberg" appears, or with which the phrase "Project
+Gutenberg" is associated) is accessed, displayed, performed, viewed,
+copied or distributed:
+
+This eBook is for the use of anyone anywhere at no cost and with
+almost no restrictions whatsoever.  You may copy it, give it away or
+re-use it under the terms of the Project Gutenberg License included
+with this eBook or online at www.gutenberg.net
+
+1.E.2.  If an individual Project Gutenberg-tm electronic work is derived
+from the public domain (does not contain a notice indicating that it is
+posted with permission of the copyright holder), the work can be copied
+and distributed to anyone in the United States without paying any fees
+or charges.  If you are redistributing or providing access to a work
+with the phrase "Project Gutenberg" associated with or appearing on the
+work, you must comply either with the requirements of paragraphs 1.E.1
+through 1.E.7 or obtain permission for the use of the work and the
+Project Gutenberg-tm trademark as set forth in paragraphs 1.E.8 or
+1.E.9.
+
+1.E.3.  If an individual Project Gutenberg-tm electronic work is posted
+with the permission of the copyright holder, your use and distribution
+must comply with both paragraphs 1.E.1 through 1.E.7 and any additional
+terms imposed by the copyright holder.  Additional terms will be linked
+to the Project Gutenberg-tm License for all works posted with the
+permission of the copyright holder found at the beginning of this work.
+
+1.E.4.  Do not unlink or detach or remove the full Project Gutenberg-tm
+License terms from this work, or any files containing a part of this
+work or any other work associated with Project Gutenberg-tm.
+
+1.E.5.  Do not copy, display, perform, distribute or redistribute this
+electronic work, or any part of this electronic work, without
+prominently displaying the sentence set forth in paragraph 1.E.1 with
+active links or immediate access to the full terms of the Project
+Gutenberg-tm License.
+
+1.E.6.  You may convert to and distribute this work in any binary,
+compressed, marked up, nonproprietary or proprietary form, including any
+word processing or hypertext form.  However, if you provide access to or
+distribute copies of a Project Gutenberg-tm work in a format other than
+"Plain Vanilla ASCII" or other format used in the official version
+posted on the official Project Gutenberg-tm web site (www.gutenberg.net),
+you must, at no additional cost, fee or expense to the user, provide a
+copy, a means of exporting a copy, or a means of obtaining a copy upon
+request, of the work in its original "Plain Vanilla ASCII" or other
+form.  Any alternate format must include the full Project Gutenberg-tm
+License as specified in paragraph 1.E.1.
+
+1.E.7.  Do not charge a fee for access to, viewing, displaying,
+performing, copying or distributing any Project Gutenberg-tm works
+unless you comply with paragraph 1.E.8 or 1.E.9.
+
+1.E.8.  You may charge a reasonable fee for copies of or providing
+access to or distributing Project Gutenberg-tm electronic works provided
+that
+
+- You pay a royalty fee of 20% of the gross profits you derive from
+     the use of Project Gutenberg-tm works calculated using the method
+     you already use to calculate your applicable taxes.  The fee is
+     owed to the owner of the Project Gutenberg-tm trademark, but he
+     has agreed to donate royalties under this paragraph to the
+     Project Gutenberg Literary Archive Foundation.  Royalty payments
+     must be paid within 60 days following each date on which you
+     prepare (or are legally required to prepare) your periodic tax
+     returns.  Royalty payments should be clearly marked as such and
+     sent to the Project Gutenberg Literary Archive Foundation at the
+     address specified in Section 4, "Information about donations to
+     the Project Gutenberg Literary Archive Foundation."
+
+- You provide a full refund of any money paid by a user who notifies
+     you in writing (or by e-mail) within 30 days of receipt that s/he
+     does not agree to the terms of the full Project Gutenberg-tm
+     License.  You must require such a user to return or
+     destroy all copies of the works possessed in a physical medium
+     and discontinue all use of and all access to other copies of
+     Project Gutenberg-tm works.
+
+- You provide, in accordance with paragraph 1.F.3, a full refund of any
+     money paid for a work or a replacement copy, if a defect in the
+     electronic work is discovered and reported to you within 90 days
+     of receipt of the work.
+
+- You comply with all other terms of this agreement for free
+     distribution of Project Gutenberg-tm works.
+
+1.E.9.  If you wish to charge a fee or distribute a Project Gutenberg-tm
+electronic work or group of works on different terms than are set
+forth in this agreement, you must obtain permission in writing from
+both the Project Gutenberg Literary Archive Foundation and Michael
+Hart, the owner of the Project Gutenberg-tm trademark.  Contact the
+Foundation as set forth in Section 3 below.
+
+1.F.
+
+1.F.1.  Project Gutenberg volunteers and employees expend considerable
+effort to identify, do copyright research on, transcribe and proofread
+public domain works in creating the Project Gutenberg-tm
+collection.  Despite these efforts, Project Gutenberg-tm electronic
+works, and the medium on which they may be stored, may contain
+"Defects," such as, but not limited to, incomplete, inaccurate or
+corrupt data, transcription errors, a copyright or other intellectual
+property infringement, a defective or damaged disk or other medium, a
+computer virus, or computer codes that damage or cannot be read by
+your equipment.
+
+1.F.2.  LIMITED WARRANTY, DISCLAIMER OF DAMAGES - Except for the "Right
+of Replacement or Refund" described in paragraph 1.F.3, the Project
+Gutenberg Literary Archive Foundation, the owner of the Project
+Gutenberg-tm trademark, and any other party distributing a Project
+Gutenberg-tm electronic work under this agreement, disclaim all
+liability to you for damages, costs and expenses, including legal
+fees.  YOU AGREE THAT YOU HAVE NO REMEDIES FOR NEGLIGENCE, STRICT
+LIABILITY, BREACH OF WARRANTY OR BREACH OF CONTRACT EXCEPT THOSE
+PROVIDED IN PARAGRAPH F3.  YOU AGREE THAT THE FOUNDATION, THE
+TRADEMARK OWNER, AND ANY DISTRIBUTOR UNDER THIS AGREEMENT WILL NOT BE
+LIABLE TO YOU FOR ACTUAL, DIRECT, INDIRECT, CONSEQUENTIAL, PUNITIVE OR
+INCIDENTAL DAMAGES EVEN IF YOU GIVE NOTICE OF THE POSSIBILITY OF SUCH
+DAMAGE.
+
+1.F.3.  LIMITED RIGHT OF REPLACEMENT OR REFUND - If you discover a
+defect in this electronic work within 90 days of receiving it, you can
+receive a refund of the money (if any) you paid for it by sending a
+written explanation to the person you received the work from.  If you
+received the work on a physical medium, you must return the medium with
+your written explanation.  The person or entity that provided you with
+the defective work may elect to provide a replacement copy in lieu of a
+refund.  If you received the work electronically, the person or entity
+providing it to you may choose to give you a second opportunity to
+receive the work electronically in lieu of a refund.  If the second copy
+is also defective, you may demand a refund in writing without further
+opportunities to fix the problem.
+
+1.F.4.  Except for the limited right of replacement or refund set forth
+in paragraph 1.F.3, this work is provided to you 'AS-IS' WITH NO OTHER
+WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO
+WARRANTIES OF MERCHANTIBILITY OR FITNESS FOR ANY PURPOSE.
+
+1.F.5.  Some states do not allow disclaimers of certain implied
+warranties or the exclusion or limitation of certain types of damages.
+If any disclaimer or limitation set forth in this agreement violates the
+law of the state applicable to this agreement, the agreement shall be
+interpreted to make the maximum disclaimer or limitation permitted by
+the applicable state law.  The invalidity or unenforceability of any
+provision of this agreement shall not void the remaining provisions.
+
+1.F.6.  INDEMNITY - You agree to indemnify and hold the Foundation, the
+trademark owner, any agent or employee of the Foundation, anyone
+providing copies of Project Gutenberg-tm electronic works in accordance
+with this agreement, and any volunteers associated with the production,
+promotion and distribution of Project Gutenberg-tm electronic works,
+harmless from all liability, costs and expenses, including legal fees,
+that arise directly or indirectly from any of the following which you do
+or cause to occur: (a) distribution of this or any Project Gutenberg-tm
+work, (b) alteration, modification, or additions or deletions to any
+Project Gutenberg-tm work, and (c) any Defect you cause.
+
+
+Section  2.  Information about the Mission of Project Gutenberg-tm
+
+Project Gutenberg-tm is synonymous with the free distribution of
+electronic works in formats readable by the widest variety of computers
+including obsolete, old, middle-aged and new computers.  It exists
+because of the efforts of hundreds of volunteers and donations from
+people in all walks of life.
+
+Volunteers and financial support to provide volunteers with the
+assistance they need, is critical to reaching Project Gutenberg-tm's
+goals and ensuring that the Project Gutenberg-tm collection will
+remain freely available for generations to come.  In 2001, the Project
+Gutenberg Literary Archive Foundation was created to provide a secure
+and permanent future for Project Gutenberg-tm and future generations.
+To learn more about the Project Gutenberg Literary Archive Foundation
+and how your efforts and donations can help, see Sections 3 and 4
+and the Foundation web page at http://www.pglaf.org.
+
+
+Section 3.  Information about the Project Gutenberg Literary Archive
+Foundation
+
+The Project Gutenberg Literary Archive Foundation is a non profit
+501(c)(3) educational corporation organized under the laws of the
+state of Mississippi and granted tax exempt status by the Internal
+Revenue Service.  The Foundation's EIN or federal tax identification
+number is 64-6221541.  Its 501(c)(3) letter is posted at
+http://pglaf.org/fundraising.  Contributions to the Project Gutenberg
+Literary Archive Foundation are tax deductible to the full extent
+permitted by U.S. federal laws and your state's laws.
+
+The Foundation's principal office is located at 4557 Melan Dr. S.
+Fairbanks, AK, 99712., but its volunteers and employees are scattered
+throughout numerous locations.  Its business office is located at
+809 North 1500 West, Salt Lake City, UT 84116, (801) 596-1887, email
+business@pglaf.org.  Email contact links and up to date contact
+information can be found at the Foundation's web site and official
+page at http://pglaf.org
+
+For additional contact information:
+     Dr. Gregory B. Newby
+     Chief Executive and Director
+     gbnewby@pglaf.org
+
+
+Section 4.  Information about Donations to the Project Gutenberg
+Literary Archive Foundation
+
+Project Gutenberg-tm depends upon and cannot survive without wide
+spread public support and donations to carry out its mission of
+increasing the number of public domain and licensed works that can be
+freely distributed in machine readable form accessible by the widest
+array of equipment including outdated equipment.  Many small donations
+($1 to $5,000) are particularly important to maintaining tax exempt
+status with the IRS.
+
+The Foundation is committed to complying with the laws regulating
+charities and charitable donations in all 50 states of the United
+States.  Compliance requirements are not uniform and it takes a
+considerable effort, much paperwork and many fees to meet and keep up
+with these requirements.  We do not solicit donations in locations
+where we have not received written confirmation of compliance.  To
+SEND DONATIONS or determine the status of compliance for any
+particular state visit http://pglaf.org
+
+While we cannot and do not solicit contributions from states where we
+have not met the solicitation requirements, we know of no prohibition
+against accepting unsolicited donations from donors in such states who
+approach us with offers to donate.
+
+International donations are gratefully accepted, but we cannot make
+any statements concerning tax treatment of donations received from
+outside the United States.  U.S. laws alone swamp our small staff.
+
+Please check the Project Gutenberg Web pages for current donation
+methods and addresses.  Donations are accepted in a number of other
+ways including including checks, online payments and credit card
+donations.  To donate, please visit: http://pglaf.org/donate
+
+
+Section 5.  General Information About Project Gutenberg-tm electronic
+works.
+
+Professor Michael S. Hart is the originator of the Project Gutenberg-tm
+concept of a library of electronic works that could be freely shared
+with anyone.  For thirty years, he produced and distributed Project
+Gutenberg-tm eBooks with only a loose network of volunteer support.
+
+
+Project Gutenberg-tm eBooks are often created from several printed
+editions, all of which are confirmed as Public Domain in the U.S.
+unless a copyright notice is included.  Thus, we do not necessarily
+keep eBooks in compliance with any particular paper edition.
+
+
+Most people start at our Web site which has the main PG search facility:
+
+     http://www.gutenberg.net
+
+This Web site includes information about Project Gutenberg-tm,
+including how to make donations to the Project Gutenberg Literary
+Archive Foundation, how to help produce our new eBooks, and how to
+subscribe to our email newsletter to hear about new eBooks.
