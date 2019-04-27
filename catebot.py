@@ -128,7 +128,7 @@ while True:
         for comment in subreddit.stream.comments():
             if comment and comment.author.name != configuration.username and comment.id not in processedComments:
                 logger.info("Processing comment %s by user %s" % (comment.id, comment.author.name))
-                catechismRequestsToFind = re.findall(r'\[\s*ccc\s*([\d\-,\s]+)\s*\](?im)(?!\()', comment.body)
+                catechismRequestsToFind = re.findall(r'\[\s*ccc\s*([\d\-,\s]+)\s*\\?\](?im)(?!\()', comment.body)
                 if catechismRequestsToFind:
                     requestIsValid,commandResponse = catechismResponse.getResponse(catechismRequestsToFind)
                     if requestIsValid:
@@ -141,7 +141,7 @@ while True:
                                 sleep(90)
                                 comment.reply(commandResponse)
 
-                baltimoreRequestsToFind = re.findall(r'\[\s*bccd\s+(#\d\s+)?([\d\-,\s]+)\s*\](?im)(?!\()', comment.body)
+                baltimoreRequestsToFind = re.findall(r'\[\s*bccd\s+(#\d\s+)?([\d\-,\s]+)\s*\\?\](?im)(?!\()', comment.body)
                 if baltimoreRequestsToFind:
                     requestIsValid,commandResponse = baltimoreResponse.getResponse(baltimoreRequestsToFind)
                     if requestIsValid:
@@ -154,7 +154,7 @@ while True:
                                 sleep(90)
                                 comment.reply(commandResponse)
 
-                canonRequestsToFind = re.findall(r'\[\s*can\s*([\d\-,s\s]+)\s*\](?im)(?!\()', comment.body)
+                canonRequestsToFind = re.findall(r'\[\s*can\s*([\d\-,s\s]+)\s*\\?\](?im)(?!\()', comment.body)
                 if canonRequestsToFind:
                     requestIsValid,commandResponse = canonResponse.getResponse(canonRequestsToFind)
                     if requestIsValid:
@@ -166,7 +166,7 @@ while True:
                                 sleep(90)
                                 comment.reply(commandResponse)
 
-                girmRequestsToFind = re.findall(r'\[\s*girm\s*([\d\-,\s]+)\s*\](?im)(?!\()', comment.body)
+                girmRequestsToFind = re.findall(r'\[\s*girm\s*([\d\-,\s]+)\s*\\?\](?im)(?!\()', comment.body)
                 if girmRequestsToFind:
                     requestIsValid,commandResponse = girmResponse.getResponse(girmRequestsToFind)
                     if requestIsValid:
