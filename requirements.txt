@@ -26,5 +26,5 @@ six==1.10.0
 text-unidecode==1.2
 tzlocal==1.5.1
 update-checker==0.16
-urllib3==1.22
+urllib3==1.26.5
 wrapt==1.10.11
