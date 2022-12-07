@@ -1,6 +1,6 @@
 backpack==0.1
 blinker==1.4
-certifi==2017.11.5
+certifi==2022.12.7
 chardet==3.0.4
 cleo==0.6.8
 decorator==4.0.9
